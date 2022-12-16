@@ -49,7 +49,7 @@ p{
 /* Image Slider */
   .carousel .carousel-item {
       height: 80vh;
-      transition-duration: 2s;
+      transition-duration: 1s;
   }
 
   .carousel-item img {
@@ -58,7 +58,7 @@ p{
       top: 0;
       left: 0;
       min-height: 500px;
-      transition-duration: 2s;
+      transition-duration: 1s;
   }
 
 /* searching form */
