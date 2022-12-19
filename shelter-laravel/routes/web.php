@@ -19,3 +19,19 @@ Route::get('/', function () {
         "active" => 'home'
     ]);
 });
+
+Route::get('/about', function () {
+    return view('about', [
+        "title" => "about",
+        "active" => 'about'
+    ]);
+});
+
+Route::get('/categories', function () {
+    return view('categories', [
+        "title" => "categories",
+        "active" => 'categories'
+    ]);
+});
+
+
