@@ -90,7 +90,7 @@
                   <p>
                      <small class="text-muted">
                         by. <a href="/post?author=jaya" class="text-decoration-none"> Jaya Permadi</a> 1 year ago
-                     </small>
+                     </small> 
                   </p>
                   <p class="card-text">KENYAMANAN TIADA HENTI.Bantalannya lebih empuk, kanvasnya lebih kuat, sama serba gunanya. Chuck 70 dirancang berdasarkan desain orisinal tahun 1970-an, dengan material premium dan perhatian luar biasa...</p>
                   <a href="/posts/converse-black-low" class="btn btn-primary">Read more..</a>
