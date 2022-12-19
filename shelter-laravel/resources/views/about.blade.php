@@ -36,7 +36,7 @@
         <div class="row content">
           <div class="col-lg-6">
             <p>
-            .CONF founded in 2022, is a shoe brand based in Indonesia, that seeks and manufactures the perfect locally made leather shoes for every day. They use synthetic or vegan leather sprouts from brand advocacy, namely to avoid using animal skins for their products. 
+            .CONF founded in 2022, is a shoe brand based in Indonesia, that seeks and manufactures the perfect locally made leather shoes for every day. They use synthetic or vegan leather sprouts from brand advocacy, namely to avoid using animal skins for their products.
             the advantages of our products are:</p>
             <ul>
               <li>- Affordable prices with</li>
@@ -200,15 +200,15 @@
       </div>
     </section><!-- End Testimonials Section -->
 
-  
+
 
   <!-- Site footer -->
   <footer class="site-footer">
-      
+
       <div class="container">
         <div class="row">
           <div class="col-md-8 col-sm-6 col-xs-12">
-            <p class="copyright-text">Copyright &copy; 2017 All Rights Reserved by 
+            <p class="copyright-text">Copyright &copy; 2017 All Rights Reserved by
          <a href="#">Scanfcode</a>.
             </p>
           </div>
@@ -218,7 +218,7 @@
               <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
               <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
               <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
-              <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
+              <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
             </ul>
           </div>
         </div>
@@ -228,7 +228,7 @@
   <div id="preloader"></div>
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-  
+
 </body>
 </html>
 
