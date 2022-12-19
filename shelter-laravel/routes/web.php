@@ -35,3 +35,9 @@ Route::get('/categories', function () {
 });
 
 
+Route::get('/posts', function () {
+    return view('posts', [
+        "title" => "posts",
+        "active" => 'posts'
+    ]);
+});
