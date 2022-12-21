@@ -1,6 +1,11 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\PostController;
+use App\Http\Controllers\LoginController;
+use App\Http\Controllers\RegisterController;
+use App\Models\Category;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -29,11 +34,11 @@ Route::get('/about', function () {
 
 Route::get('/categories', function () {
     return view('categories', [
-        "title" => "categories",
-        "active" => 'categories'
+        'title' => 'Post Categories',
+        'active' => 'categories',
+//        'categories' =>Category::all()
     ]);
 });
-
 
 Route::get('/posts', function () {
     return view('posts', [
@@ -41,3 +46,14 @@ Route::get('/posts', function () {
         "active" => 'posts'
     ]);
 });
+
+
+//Route::get('/posts', [PostController::class. 'index']);
+//Route::get('posts/{post:slug}', [PostController::class, 'show']);
+
+Route::get('/login', [LoginController::class, 'index'])->name('login')->middleware('guest');
+Route::post('/login', [LoginController::class, 'authenticate']);
+Route::post('/logout', [LoginController::class, 'logout']);
+
+Route::get('/register', [RegisterController::class, 'index'])->middleware('guest');
+Route::post('/register', [RegisterController::class, 'store']);
