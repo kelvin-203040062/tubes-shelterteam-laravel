@@ -43,8 +43,8 @@
 </div>
 
 <!-- kondisi postingan -->
-<div class="card mb-3">
-   <div style="max-height: 350px; margin-left:auto; margin-right:auto; display:block; ">
+<div class="card mb-3" style="background-color: white; border: none">
+   <div style="max-height: 350px; margin-left:auto; margin-right:auto; display:block; background-color: white">
       <img src="https://codebytes6.000webhostapp.com/storage/post-images/2rlrSXJeZWNrq82DDNxen7GfncQtd3YGJ93aANRn.jpg" alt="Converse" class="img-fluid" style="width: 400px; height: 400px;">
    </div>
    <div class="card-body text-center">
@@ -66,7 +66,7 @@
 
         <div class="row">
                   <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" style="background-color: white; border: none">
                <div class="position-absolute px-3 py-2" style="background-color: rgba(0,0,0,0.7)"><a href="/post?category=Vans" class="text-white text-decoration-none">Vans</a></div>
                 <img src="https://codebytes6.000webhostapp.com/storage/post-images/ET7ChuXLeL7AWDoLVz2pmYWumR04kMephQscPTCk.jpg" alt="Vans" class="img-fluid">
                 <div class="card-body">
@@ -82,7 +82,7 @@
             </div>
          </div>
         <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" style="background-color: white; border: none">
                <div class="position-absolute px-3 py-2" style="background-color: rgba(0,0,0,0.7)"><a href="/post?category=converse" class="text-white text-decoration-none">Converse</a></div>
                 <img src="https://codebytes6.000webhostapp.com/storage/post-images/gPPS0Efyqd82Hv8KLX8rYaXFrl35p9nF2kVvLUQZ.jpg" alt="Converse" class="img-fluid">
                 <div class="card-body">
@@ -90,7 +90,7 @@
                   <p>
                      <small class="text-muted">
                         by. <a href="/post?author=jaya" class="text-decoration-none"> Jaya Permadi</a> 1 year ago
-                     </small> 
+                     </small>
                   </p>
                   <p class="card-text">KENYAMANAN TIADA HENTI.Bantalannya lebih empuk, kanvasnya lebih kuat, sama serba gunanya. Chuck 70 dirancang berdasarkan desain orisinal tahun 1970-an, dengan material premium dan perhatian luar biasa...</p>
                   <a href="/posts/converse-black-low" class="btn btn-primary">Read more..</a>
@@ -98,7 +98,7 @@
             </div>
          </div>
                   <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" style="background-color: white; border: none">
                <div class="position-absolute px-3 py-2" style="background-color: rgba(0,0,0,0.7)"><a href="/post?category=converse" class="text-white text-decoration-none">Converse</a></div>
                 <img src="https://codebytes6.000webhostapp.com/storage/post-images/NpQmWfftuANV3ayyaOo1nZCeGXSdKth0VBNOdJIe.jpg" alt="Converse" class="img-fluid">
                 <div class="card-body">
@@ -114,7 +114,7 @@
             </div>
          </div>
                   <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" style="background-color: white; border: none">
                <div class="position-absolute px-3 py-2" style="background-color: rgba(0,0,0,0.7)"><a href="/post?category=Ventela" class="text-white text-decoration-none">Ventela</a></div>
                 <img src="https://codebytes6.000webhostapp.com/storage/post-images/Dthck7AGE9PBwvO7IFYv69Zbzd6Wh0U7tWxdG3OL.jpg" alt="Ventela" class="img-fluid">
                 <div class="card-body">
@@ -130,7 +130,7 @@
             </div>
          </div>
             <div class="col-md-4 mb-3">
-                <div class="card">
+                <div class="card" style="background-color: white; border: none">
                 <div class="position-absolute px-3 py-2" style="background-color: rgba(0,0,0,0.7)"><a href="/post?category=Ventela" class="text-white text-decoration-none">Ventela</a></div>
                     <img src="https://codebytes6.000webhostapp.com/storage/post-images/qLAmq8oIKzwCckkqlA7naP4DTPSlMy7dtuxZ6V7q.jpg" alt="Ventela" class="img-fluid">
                     <div class="card-body">
@@ -146,7 +146,7 @@
             </div>
         </div>
         <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card" style="background-color: white; border: none">
                <div class="position-absolute px-3 py-2" style="background-color: rgba(0,0,0,0.7)"><a href="/post?category=Vans" class="text-white text-decoration-none">Vans</a></div>
                 <img src="https://codebytes6.000webhostapp.com/storage/post-images/NgRtdaFTz8e5YeQs7qmQb9hmUBmYzGaQmPD9jhsD.png" alt="Vans" class="img-fluid">
                 <div class="card-body">
@@ -176,11 +176,7 @@
    </div>
 </footer>
 
-  <div id="preloader"></div>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
-
 
 </html>
 <div class="container">
