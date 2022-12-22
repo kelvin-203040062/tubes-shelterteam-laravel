@@ -46,7 +46,8 @@
                      </small>
                   </p>
                   <p class="card-text">First known as the Vans #36, the Old Skool debuted in 1977 with a unique new addition: a random doodle drawn by founder Paul Van Doren, and originally referred to as the “jazz stripe.” Today, the famo...</p>
-                  <a href="/posts/vans" class="btn btn-primary">Read more..</a>
+                  <br>
+                    <a href="/posts/vans" class="btn btn-primary">Read more..</a>
                </div>
             </div>
          </div>
