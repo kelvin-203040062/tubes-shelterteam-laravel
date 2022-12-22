@@ -148,7 +148,7 @@
                   I didn't expect that at such a low price I could get original shoes with this good quality, top 10 stars for the seller.
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
-                <img src="img/{{ ('testimonials/testimonials-2.jpg') }}" class="testimonial-img" alt="">
+                <img src="img/{{ ('testimonials/hervin.jpeg') }}" class="testimonial-img" alt="">
                 <h3>Hervin Fakhrul Mahardika</h3>
                 <h4>Back End</h4>
               </div>
@@ -161,7 +161,7 @@
                   Very beautiful. The size is also perfect. It looks like this quality will last really long. Thanks!
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
-                <img src="img/{{ ('testimonials/testimonials-3.jpg') }}" class="testimonial-img" alt="">
+                <img src="img/{{ ('testimonials/mahendra.jpeg') }}" class="testimonial-img" alt="">
                 <h3>Rizky Mahendra</h3>
                 <h4>Back End</h4>
               </div>
@@ -174,7 +174,7 @@
                   The delivery is fast, buying products here is really worth it, the price is affordable, the admin is really responsive, I really recommend shopping at this store.
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
-                <img src="img/{{ ('testimonials/testimonials-4.jpg') }}" class="testimonial-img" alt="">
+                <img src="img/{{ ('testimonials/yulius.jpeg') }}" class="testimonial-img" alt="">
                 <h3>Yulius Yogi Yuwono</h3>
                 <h4>Front End</h4>
               </div>
@@ -187,7 +187,7 @@
                   Poisoned by a friend who bought this product because when it arrived it was good so it went straight to gas checkout, didn't disappoint. Super recommended.
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
-                <img src="img/{{ ('testimonials/testimonials-5.jpg') }}" class="testimonial-img" alt="">
+                <img src="img/{{ ('testimonials/testimonials-2.jpg') }}" class="testimonial-img" alt="">
                 <h3>Religi Realista Esthetika</h3>
                 <h4>Front End</h4>
               </div>
