@@ -18,6 +18,8 @@
      </div>
   </div>
 
+<p>
+
   <div class="row mb-5">
      <div class="col-md ">
         <div class="card">
@@ -60,7 +62,7 @@
       </div>
    </div>
   </div>
-  <div class="container" style="background-color: #ed2424;">
+  <div class="container" style="background-color: #ed2424; border-radius: 10px">
     <h2 style="font-size: 100px; text-align:center; color:white;">PROMO</h2>
     <h2 style="font-size: 100px; text-align:center; color:white;">AWAL</h2>
     <h2 style="font-size: 100px; text-align:center; color:white;">TAHUN</h2>
