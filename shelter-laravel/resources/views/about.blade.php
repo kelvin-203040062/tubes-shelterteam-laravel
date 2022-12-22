@@ -88,27 +88,27 @@
         <div class="row">
 
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center" data-aos="zoom-in">
-            <img src="img/{{ ('clients/client-1.png') }}" class="img-fluid" alt="">
+            <img src="img/{{ ('clients/shopee.png') }}" class="img-fluid" alt="">
           </div>
 
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center" data-aos="zoom-in">
-            <img src="img/{{ ('clients/client-2.png') }}" class="img-fluid" alt="">
+            <img src="img/{{ ('clients/Lazada.png') }}" class="img-fluid" alt="">
           </div>
 
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center" data-aos="zoom-in">
-            <img src="img/{{ ('clients/client-3.png') }}" class="img-fluid" alt="">
+            <img src="img/{{ ('clients/tokopedia.png') }}" class="img-fluid" alt="">
           </div>
 
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center" data-aos="zoom-in">
-            <img src="img/{{ ('clients/client-4.png') }}" class="img-fluid" alt="">
+            <img src="img/{{ ('clients/amazon.png') }}" class="img-fluid" alt="">
           </div>
 
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center" data-aos="zoom-in">
-            <img src="img/{{ ('clients/client-5.png') }}" class="img-fluid" alt="">
+            <img src="img/{{ ('clients/jdid.png') }}" class="img-fluid" alt="">
           </div>
 
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center" data-aos="zoom-in">
-            <img src="img/{{ ('clients/client-6.png') }}" class="img-fluid" alt="">
+            <img src="img/{{ ('clients/ebay.png') }}" class="img-fluid" alt="">
           </div>
 
         </div>
@@ -121,8 +121,8 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Testimonials</h2>
-          <p>Happy Shopping!</p>
+          <h2>.CONF Shoes Store</h2>
+          <p>Shelter Team</p>
         </div>
 
         <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
