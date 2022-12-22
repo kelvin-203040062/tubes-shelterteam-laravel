@@ -6,9 +6,9 @@
     <div class="container mt-2">
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000">
             <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" style="background-color:black"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" style="background-color:black"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" style="background-color:black"></button>
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -41,7 +41,7 @@
   <div class="row mb-5">
      <div class="col-md ">
         <div class="card">
-           <img src="img/Adidas.jpg" class="card-img-top" alt="...">
+           <img src="img/Adidas.jpg" class="card-img-top">
            <div class="card-body">
               <h3 style="text-align: center">Adidas</h3>
                <a href="/categories" class="btn btn-outline-success" role="button" style="margin-left: 100px; margin-top: 10px"><i class="bi bi-cart"></i> Explore</a>
@@ -50,7 +50,7 @@
      </div>
      <div class="col-md">
         <div class="card">
-           <img src="img/Nike.jpg" class="card-img-top" alt="...">
+           <img src="img/Nike.jpg" class="card-img-top">
            <div class="card-body">
               <h3 style="text-align: center">Nike</h3>
                <a href="/categories" class="btn btn-outline-success" role="button" style="margin-left: 100px; margin-top: 10px"><i class="bi bi-cart"></i> Explore</a>
@@ -59,7 +59,7 @@
      </div>
      <div class="col-md">
         <div class="card">
-           <img src="img/Puma.jpg" class="card-img-top" alt="...">
+           <img src="img/Puma.jpg" class="card-img-top">
            <div class="card-body">
               <h3 style="text-align: center">Puma</h3>
                <a href="/categories" class="btn btn-outline-success" role="button" style="margin-left: 100px; margin-top: 10px"><i class="bi bi-cart"></i> Explore</a>
@@ -91,32 +91,32 @@
                 <li class="list-group-item" style="background-color: #2cc993; text-align: center">
                    <h1 >Location</h1>
                 </li>
-                <li class="list-group-item">Shelter Shoes</li>
+                <li class="list-group-item">.conf Shoes Store</li>
                 <li class="list-group-item">Jl. Baleendah Kab. Bandung Selatan </li>
-                <li class="list-group-item">Jawa Barat, indonesia</li>
+                <li class="list-group-item">Jawa Barat, Indonesia</li>
              </ul>
           </div>
 
           <div class="col-lg-6 isian">
              <form>
                 <div class="form-group">
-                   <label for="Nama">Nama </label>
-                   <input type="text" class="form-control" id="Nama">
+                   <label for="Nama">Name</label>
+                   <input type="text" class="form-control" id="name">
                 </div>
                 <div class="form-group">
-                   <label for="Email">Email </label>
-                   <input type="text" class="form-control" id="Email">
+                   <label for="Email">Email</label>
+                   <input type="text" class="form-control" id="email">
                 </div>
                 <div class="form-group">
-                   <label for="No Telpon">No Telepon </label>
-                   <input type="text" class="form-control" id="No Telpon">
+                   <label for="No Telpon">Phone</label>
+                   <input type="text" class="form-control" id="phone">
                 </div>
                 <div class="form-group">
-                   <label for="pesan">Pesan </label>
-                   <textarea name="pesan" id="pesan" class="form-control"></textarea>
+                   <label for="pesan">Message</label>
+                   <textarea name="message" id="message" class="form-control"></textarea>
                 </div>
                 <div class="from-grup">
-                   <button type="button" class="btn btn-primary">Kirim pesan</button>
+                   <button type="button" class="btn btn-outline-primary">Send</button>
                 </div>
              </form>
           </div>
