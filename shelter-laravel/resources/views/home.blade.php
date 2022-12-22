@@ -18,7 +18,11 @@
      </div>
   </div>
 
+<<<<<<< HEAD
         <p>
+=======
+<p>
+>>>>>>> 84537377f6bddc5095b5052eb56f93483f7e9f5d
 
   <div class="row mb-5">
      <div class="col-md ">
