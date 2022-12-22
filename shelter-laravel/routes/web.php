@@ -41,10 +41,10 @@ Route::get('/categories', function () {
     ]);
 });
 
-Route::get('/posts', function () {
-    return view('posts', [
-        "title" => "posts",
-        "active" => 'posts'
+Route::get('/product', function () {
+    return view('product', [
+        "title" => "product",
+        "active" => 'product'
     ]);
 });
 
