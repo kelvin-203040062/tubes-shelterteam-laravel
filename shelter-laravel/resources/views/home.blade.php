@@ -77,7 +77,7 @@
        <div class="row justify-content-center">
 
           <div class="col-lg-4 ">
-             <div class="card text-white bg-dark mb-3 text-center">
+             <div class="card text-white mb-3 text-center" style="background-color: #2cc993">
                 <div class="card-body">
                    <h5 class="card-title ">Shelter</h5>
                    <p class="card-text">Terimakasih karena sudah mengunjungi toko kami</p>
