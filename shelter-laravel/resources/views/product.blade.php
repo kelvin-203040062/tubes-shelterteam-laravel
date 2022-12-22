@@ -8,7 +8,7 @@
    <div class="col-md-6">
       <form action="/post">
          <div class="input-group mb-3">
-            <input type="text" class="form-control" placeholder="Search.." name="search" value="">
+            <input type="text" class="form-control" placeholder="Search..." name="search" value="">
             <button class="btn btn-primary" type="submit">Search</button>
          </div>
       </form>
@@ -31,7 +31,6 @@
       <a href="/posts/converse-green-high" class="text-decoration-none btn btn-primary">Readmore</a>
    </div>
 
-
     <div class="container">
         <div class="row">
             <div class="col-md-4 mb-3">
@@ -51,6 +50,7 @@
                </div>
             </div>
          </div>
+
         <div class="col-md-4 mb-3">
             <div class="card">
                <div class="position-absolute px-3 py-2" style="background-color: rgba(0,0,0,0.7)"><a href="/post?category=converse" class="text-white text-decoration-none">Converse</a></div>

@@ -41,7 +41,7 @@
   <div class="row mb-5">
      <div class="col-md ">
         <div class="card">
-           <img src="img/Adidas.jpg" class="card-img-top" alt="...">
+           <img src="img/Adidas.jpg" class="card-img-top">
            <div class="card-body">
               <h3 style="text-align: center">Adidas</h3>
                <a href="/categories" class="btn btn-outline-success" role="button" style="margin-left: 100px; margin-top: 10px"><i class="bi bi-cart"></i> Explore</a>
@@ -50,7 +50,7 @@
      </div>
      <div class="col-md">
         <div class="card">
-           <img src="img/Nike.jpg" class="card-img-top" alt="...">
+           <img src="img/Nike.jpg" class="card-img-top">
            <div class="card-body">
               <h3 style="text-align: center">Nike</h3>
                <a href="/categories" class="btn btn-outline-success" role="button" style="margin-left: 100px; margin-top: 10px"><i class="bi bi-cart"></i> Explore</a>
@@ -59,7 +59,7 @@
      </div>
      <div class="col-md">
         <div class="card">
-           <img src="img/Puma.jpg" class="card-img-top" alt="...">
+           <img src="img/Puma.jpg" class="card-img-top">
            <div class="card-body">
               <h3 style="text-align: center">Puma</h3>
                <a href="/categories" class="btn btn-outline-success" role="button" style="margin-left: 100px; margin-top: 10px"><i class="bi bi-cart"></i> Explore</a>
