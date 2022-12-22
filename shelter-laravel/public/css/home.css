@@ -4,7 +4,7 @@
   }
 
   body {
-    background-color: #fcf0e6;
+    background-color: #ffffff;
     font-family: 'Futura Bk BT';
   }
 
@@ -36,13 +36,14 @@
 
   /* Card */
     .card {
-        background-color: #FDF7F2;
+        background-color: #ffffff;
+        border: none;
     }
 
     .card-deck{
         padding-bottom: 6%;
         padding-top: 6%;
-        background-color: #fcf0e6;
+        background-color: #ffffff;
     }
 
 
