@@ -91,32 +91,32 @@
                 <li class="list-group-item" style="background-color: #2cc993; text-align: center">
                    <h1 >Location</h1>
                 </li>
-                <li class="list-group-item">Shelter Shoes</li>
+                <li class="list-group-item">.conf Shoes Store</li>
                 <li class="list-group-item">Jl. Baleendah Kab. Bandung Selatan </li>
-                <li class="list-group-item">Jawa Barat, indonesia</li>
+                <li class="list-group-item">Jawa Barat, Indonesia</li>
              </ul>
           </div>
 
           <div class="col-lg-6 isian">
              <form>
                 <div class="form-group">
-                   <label for="Nama">Nama </label>
-                   <input type="text" class="form-control" id="Nama">
+                   <label for="Nama">Name</label>
+                   <input type="text" class="form-control" id="name">
                 </div>
                 <div class="form-group">
-                   <label for="Email">Email </label>
-                   <input type="text" class="form-control" id="Email">
+                   <label for="Email">Email</label>
+                   <input type="text" class="form-control" id="email">
                 </div>
                 <div class="form-group">
-                   <label for="No Telpon">No Telepon </label>
-                   <input type="text" class="form-control" id="No Telpon">
+                   <label for="No Telpon">Phone</label>
+                   <input type="text" class="form-control" id="phone">
                 </div>
                 <div class="form-group">
-                   <label for="pesan">Pesan </label>
-                   <textarea name="pesan" id="pesan" class="form-control"></textarea>
+                   <label for="pesan">Message</label>
+                   <textarea name="message" id="message" class="form-control"></textarea>
                 </div>
                 <div class="from-grup">
-                   <button type="button" class="btn btn-primary">Kirim pesan</button>
+                   <button type="button" class="btn btn-outline-primary">Send</button>
                 </div>
              </form>
           </div>
