@@ -19,17 +19,17 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="img/14.png" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Second slide label</h5>
-                        <p>Some representative placeholder content for the second slide.</p>
+                    <img src="img/14.png" class="d-block w-100" style="filter: blur(3px); -webkit-filter: blur(3px)">
+                    <div class="carousel-caption d-none d-md-block" style="margin-bottom: 150px; font-size: 30px; font-family: 'Roboto'">
+                        <h1>Welcome to .conf Shoes Store</h1>
+                        <p>Happy Shopping</p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="img/11.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Third slide label</h5>
-                        <p>Some representative placeholder content for the third slide.</p>
+                    <img src="img/15.jpg" class="d-block w-100" style="filter: blur(3px); -webkit-filter: blur(3px)">
+                    <div class="carousel-caption d-none d-md-block" style="margin-bottom: 200px; font-size: 30px; font-family: 'Roboto'">
+                        <h1>Welcome to .conf Shoes Store</h1>
+                        <p>Happy Shopping</p>
                     </div>
                 </div>
             </div>

@@ -187,7 +187,7 @@
                   Poisoned by a friend who bought this product because when it arrived it was good so it went straight to gas checkout, didn't disappoint. Super recommended.
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
-                <img src="img/{{ ('testimonials/testimonials-2.jpg') }}" class="testimonial-img" alt="">
+                <img src="img/{{ ('testimonials/religi.jpeg') }}" class="testimonial-img" alt="">
                 <h3>Religi Realista Esthetika</h3>
                 <h4>Front End</h4>
               </div>
