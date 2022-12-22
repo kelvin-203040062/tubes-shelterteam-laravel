@@ -61,6 +61,7 @@
       <div class="container">
         <div class="row">
 
+<<<<<<< HEAD
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center" >
             <img src="img/{{ ('clients/client-1.png') }}" class="img-fluid">
           </div>
@@ -83,6 +84,30 @@
 
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
             <img src="img/{{ ('clients/client-6.png') }}" class="img-fluid">
+=======
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center" data-aos="zoom-in">
+            <img src="img/{{ ('clients/shopee.png') }}" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center" data-aos="zoom-in">
+            <img src="img/{{ ('clients/Lazada.png') }}" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center" data-aos="zoom-in">
+            <img src="img/{{ ('clients/tokopedia.png') }}" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center" data-aos="zoom-in">
+            <img src="img/{{ ('clients/amazon.png') }}" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center" data-aos="zoom-in">
+            <img src="img/{{ ('clients/jdid.png') }}" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center" data-aos="zoom-in">
+            <img src="img/{{ ('clients/ebay.png') }}" class="img-fluid" alt="">
+>>>>>>> 8c4bcc6b42e781596b72902817e577b87182e9a3
           </div>
 
         </div>
@@ -95,8 +120,8 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Testimonials</h2>
-          <p>Happy Shopping!</p>
+          <h2>.CONF Shoes Store</h2>
+          <p>Shelter Team</p>
         </div>
 
         <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
@@ -164,7 +189,11 @@
                   Poisoned by a friend who bought this product because when it arrived it was good so it went straight to gas checkout, didn't disappoint. Super recommended.
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
+<<<<<<< HEAD
                 <img src="img/{{ ('testimonials/testimonials-2.jpg') }}" class="testimonial-img">
+=======
+                <img src="img/{{ ('testimonials/religi.jpeg') }}" class="testimonial-img" alt="">
+>>>>>>> 8c4bcc6b42e781596b72902817e577b87182e9a3
                 <h3>Religi Realista Esthetika</h3>
                 <h4>Front End</h4>
               </div>

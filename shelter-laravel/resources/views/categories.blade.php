@@ -29,7 +29,7 @@
                                 <h2>Impossible is Nothing</h2>
                                 <p>Another advantage that Adidas offers is that the weight of the shoes tends to be light, and with soft materials, so apart from being comfortable, Adidas soccer shoes also help you to run and process the ball.</p>
                             </div>
-                            <button type = "button" class = "read-btn">Read All</button>
+                            <button type = "button" class = "read-btn">View All</button>
                         </div>
                         <!-- end of single post -->
                         <!-- single post -->
@@ -43,7 +43,7 @@
                                 <h2>Just Do It!</h2>
                                 <p>Nike shoes are a product launched by Nike Inc. Nike Inc. is a manufacturer of shoes and sports equipment from the United States. Founded on May 30, 1978, now Nike has become one of the best sports brands and has spread all over the world.</p>
                             </div>
-                            <button type = "button" class = "read-btn">Read All</button>
+                            <button type = "button" class = "read-btn">View All</button>
                         </div>
                         <!-- end of single post -->
                         <!-- single post -->
@@ -57,7 +57,7 @@
                                 <h2>Forever Faster</h2>
                                 <p>Puma's old logo features a puma or mountain lion jumping in the D hole which is the initial of the family, namely Dassler. In 1968 the logo was changed to make it more modern. Finally the logo of a puma is jumping towards the name PUMA which is written in bold letters to become the official logo until now.</p>
                             </div>
-                            <button type = "button" class = "read-btn">Read All</button>
+                            <button type = "button" class = "read-btn">View All</button>
                         </div>
                         <!-- end of single post -->
 
