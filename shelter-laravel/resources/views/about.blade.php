@@ -61,7 +61,7 @@
         <div class="row">
 
           <div class="col-lg-6 image-box align-self-baseline" data-aos="fade-right" data-aos-delay="100">
-            <img src="img/{{ ('14.png') }}" class="img-fluid" alt="">
+            <img src="img/{{ ('14.png') }}" class="img-fluid" alt="" style="border-radius: 10px">
           </div>
 
           <div class="col-lg-6 pt-3 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">
