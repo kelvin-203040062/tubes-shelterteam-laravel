@@ -1,8 +1,17 @@
 @extends('layouts.main')
 
 @section('container')
-
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/{{ ('categories.css') }}" rel="stylesheet">
+        <script src="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet" crossorigin="anonymous"></script>
+    </head>
     <body>
+
         <div class = "main-container">
             <h2>Our Categories</h2>
             <p>When choosing footwear, make sure you adjust it to the type of event and where you are going. Choosing the right shoes will enhance your appearance and increase your self-confidence.</p>
@@ -12,7 +21,7 @@
                         <!-- single post -->
                         <div class = "all business">
                             <div class = "post-img">
-                                <img src = "img/Adidas.jpg">
+                                <img src = "img/Adidas.jpg" alt = "post">
                                 <span class = "category-name">Adidas</span>
                             </div>
 
@@ -23,11 +32,10 @@
                             <button type = "button" class = "read-btn">View All</button>
                         </div>
                         <!-- end of single post -->
-
                         <!-- single post -->
                         <div class = "all business">
                             <div class = "post-img">
-                                <img src = "img/Nike.jpg">
+                                <img src = "img/Nike.jpg" alt = "post">
                                 <span class = "category-name">Nike</span>
                             </div>
 
@@ -38,11 +46,10 @@
                             <button type = "button" class = "read-btn">View All</button>
                         </div>
                         <!-- end of single post -->
-
                         <!-- single post -->
                         <div class = "all business">
                             <div class = "post-img">
-                                <img src = "img/puma.jpg">
+                                <img src = "img/puma.jpg" alt = "post">
                                 <span class = "category-name">Puma</span>
                             </div>
 
@@ -53,16 +60,19 @@
                             <button type = "button" class = "read-btn">View All</button>
                         </div>
                         <!-- end of single post -->
+
                     </div>
                 </div>
             </div>
         </div>
+
+
     </body>
+</html>
 
 <div class="container">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-<link rel="stylesheet" type="text/css" href="{{ asset('css/home.css') }}">
-<link href="css/{{ ('categories.css') }}" rel="stylesheet">
-<script src="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="{{ asset('css/responcategories.css') }}">
 
 @endsection
