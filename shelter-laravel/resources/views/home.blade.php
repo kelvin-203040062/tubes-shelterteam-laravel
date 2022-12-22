@@ -55,9 +55,9 @@
   </div>
 
   <div class="container" style="background-color: #ed2424; border-radius: 10px">
-    <h2 style="font-size: 100px; text-align:center; color:white;">PROMO</h2>
-    <h2 style="font-size: 100px; text-align:center; color:white;">AWAL</h2>
-    <h2 style="font-size: 100px; text-align:center; color:white;">TAHUN</h2>
+    <h2 style="font-size: 100px; text-align:center; color:white;">DISKON</h2>
+    <h2 style="font-size: 100px; text-align:center; color:white;">50%</h2>
+    <h2 style="font-size: 100px; text-align:center; color:white;">AWAL TAHUN</h2>
  </div>
 
  <section id="contact" class="contact mb-5">
