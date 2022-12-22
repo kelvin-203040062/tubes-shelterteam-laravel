@@ -61,32 +61,8 @@
       <div class="container">
         <div class="row">
 
-<<<<<<< HEAD
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center" >
-            <img src="img/{{ ('clients/client-1.png') }}" class="img-fluid">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="img/{{ ('clients/client-2.png') }}" class="img-fluid">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="img/{{ ('clients/client-3.png') }}" class="img-fluid">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="img/{{ ('clients/client-4.png') }}" class="img-fluid">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="img/{{ ('clients/client-5.png') }}" class="img-fluid">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="img/{{ ('clients/client-6.png') }}" class="img-fluid">
-=======
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center" data-aos="zoom-in">
-            <img src="img/{{ ('clients/shopee.png') }}" class="img-fluid" alt="">
+            <img src="img/{{ ('clients/Shopee.png') }}" class="img-fluid" alt="">
           </div>
 
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center" data-aos="zoom-in">
@@ -107,12 +83,12 @@
 
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center" data-aos="zoom-in">
             <img src="img/{{ ('clients/ebay.png') }}" class="img-fluid" alt="">
->>>>>>> 8c4bcc6b42e781596b72902817e577b87182e9a3
           </div>
 
         </div>
       </div>
-    </section>
+    </div>
+  </section>
   <!-- End Clients Section -->
 
   <!-- ======= Testimonials Section ======= -->
@@ -189,11 +165,7 @@
                   Poisoned by a friend who bought this product because when it arrived it was good so it went straight to gas checkout, didn't disappoint. Super recommended.
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
-<<<<<<< HEAD
-                <img src="img/{{ ('testimonials/testimonials-2.jpg') }}" class="testimonial-img">
-=======
                 <img src="img/{{ ('testimonials/religi.jpeg') }}" class="testimonial-img" alt="">
->>>>>>> 8c4bcc6b42e781596b72902817e577b87182e9a3
                 <h3>Religi Realista Esthetika</h3>
                 <h4>Front End</h4>
               </div>
