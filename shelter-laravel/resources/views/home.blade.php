@@ -51,15 +51,6 @@
            </div>
         </div>
      </div>
-     <div class="col-md">
-      <div class="card">
-         <img src="img/13.jpg" class="card-img-top" alt="...">
-         <div class="card-body">
-            <h3>Vans</h3>
-            <div class="progress">
-            </div>
-         </div>
-      </div>
    </div>
   </div>
   <div class="container" style="background-color: #ed2424; border-radius: 10px">
@@ -82,7 +73,7 @@
              <div class="card text-white mb-3 text-center" style="background-color: #2cc993">
                 <div class="card-body">
                    <h5 class="card-title ">Shelter</h5>
-                   <p class="card-text">Terimakasih karena sudah mengunjungi toko kami</p>
+                   <p class="card-text">Terimakasih karena sudah mengunjungi toko kami, Happy shopping</p>
                 </div>
              </div>
              <ul class="list-group">

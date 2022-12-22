@@ -60,20 +60,6 @@
                             <button type = "button" class = "read-btn">Read All</button>
                         </div>
                         <!-- end of single post -->
-                        <!-- single post -->
-                        <div class = "all business">
-                            <div class = "post-img">
-                                <img src = "img/11.jpg" alt = "post">
-                                <span class = "category-name">Vans</span>
-                            </div>
-
-                            <div class = "post-content">
-                                <h2>Of The Wall</h2>
-                                <p>Vans is known for its durability and good comfort for everyday use. Some models feature padded sides behind the foot. What makes this brand even more interesting is its varied designs with cool combinations and motifs.</p>
-                            </div>
-                            <button type = "button" class = "read-btn">Read All</button>
-                        </div>
-                        <!-- end of single post -->
 
                     </div>
                 </div>
