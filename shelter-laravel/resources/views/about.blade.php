@@ -216,3 +216,5 @@ integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2
 <link rel="stylesheet" type="text/css" href="{{ asset('css/home.css') }}">
 
 @endsection
+
+
