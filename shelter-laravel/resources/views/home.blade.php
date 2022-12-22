@@ -25,7 +25,7 @@
         <div class="card">
            <img src="img/Adidas.jpg" class="card-img-top" alt="...">
            <div class="card-body">
-              <h3>Adidas</h3>
+              <h3 style="text-align: center">Adidas</h3>
               <div class="progress">
               </div>
            </div>
@@ -35,7 +35,7 @@
         <div class="card">
            <img src="img/Nike.jpg" class="card-img-top" alt="...">
            <div class="card-body">
-              <h3>Nike</h3>
+              <h3 style="text-align: center">Nike</h3>
               <div class="progress">
               </div>
            </div>
@@ -45,7 +45,7 @@
         <div class="card">
            <img src="img/Puma.jpg" class="card-img-top" alt="...">
            <div class="card-body">
-              <h3>Puma</h3>
+              <h3 style="text-align: center">Puma</h3>
               <div class="progress">
               </div>
            </div>
@@ -53,11 +53,13 @@
      </div>
    </div>
   </div>
+
   <div class="container" style="background-color: #ed2424; border-radius: 10px">
     <h2 style="font-size: 100px; text-align:center; color:white;">PROMO</h2>
     <h2 style="font-size: 100px; text-align:center; color:white;">AWAL</h2>
     <h2 style="font-size: 100px; text-align:center; color:white;">TAHUN</h2>
  </div>
+
  <section id="contact" class="contact mb-5">
     <div class="container">
        <div class="row pt-4 mb-4">
@@ -67,25 +69,17 @@
        </div>
 
        <div class="row justify-content-center">
-
           <div class="col-lg-4 ">
-             <div class="card text-white mb-3 text-center" style="background-color: #2cc993">
-                <div class="card-body">
-                   <h5 class="card-title ">Shelter</h5>
-                   <p class="card-text">Terimakasih karena sudah mengunjungi toko kami, Happy shopping</p>
-                </div>
-             </div>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.0113435133544!2d107.62025111420161!3d-7.00794657058814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e97ffa8547a3%3A0x12df3cba0331686c!2sJl.%20Baleendah%2C%20Baleendah%2C%20Kec.%20Baleendah%2C%20Kabupaten%20Bandung%2C%20Jawa%20Barat%2040375!5e0!3m2!1sid!2sid!4v1671723889264!5m2!1sid!2sid" width="340" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
              <ul class="list-group">
-                <li class="list-group-item">
-                   <h1>location</h1>
+                <li class="list-group-item" style="background-color: #2cc993; text-align: center">
+                   <h1 >Location</h1>
                 </li>
                 <li class="list-group-item">Shelter Shoes</li>
                 <li class="list-group-item">Jl. Baleendah Kab. Bandung Selatan </li>
                 <li class="list-group-item">Jawa Barat, indonesia</li>
              </ul>
           </div>
-
-
 
           <div class="col-lg-6 isian">
              <form>
@@ -98,7 +92,7 @@
                    <input type="text" class="form-control" id="Email">
                 </div>
                 <div class="form-group">
-                   <label for="No Telpon">No Telpon </label>
+                   <label for="No Telpon">No Telepon </label>
                    <input type="text" class="form-control" id="No Telpon">
                 </div>
                 <div class="form-group">
@@ -110,13 +104,10 @@
                 </div>
              </form>
           </div>
-
-
        </div>
-
     </div>
-
  </section>
+
 <div class="container">
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
 integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
