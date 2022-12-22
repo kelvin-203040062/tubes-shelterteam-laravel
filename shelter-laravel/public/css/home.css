@@ -59,7 +59,7 @@
   /* Image Slider */
     .carousel .carousel-item {
         height: 80vh;
-        transition-duration: 1s;
+        transition-duration: 1.5s;
     }
 
     .carousel-item img {
