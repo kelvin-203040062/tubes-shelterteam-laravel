@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    background-color: #ffffff;
+    font-family: 'Futura Bk BT';
+  }
+  @media screen and (min-width: 1500px) {
+    .container {
+        width: 1500px;
+        margin-left: 150px;
+        margin-right: auto;
+    }
+ }
+
+  p{
+    line-height: 1.7;
+  }
+
+  /* Navbar */
+    #logo{
+        width: 200px;
+    }
+
+    .navbar-brand{
+        padding-left: 27%;
+    }
+
+    .navbar-nav{
+        padding-right: 15%;
+    }
+
+    .navbar-light{
+        background-color: #FDF7F2;
+    }
+
+    .nav-link:hover{
+        color: #403730 !important;
+    }
+
+  /* Card */
+    .card {
+        background-color: #ffffff;
+    }
+
+    .main-card {
+        border: none;
+    }
+
+    .main-img {
+        width: 400px;
+        height: 400px;
+        margin-left: 300px;
+    }
+
+    .card-deck{
+        padding-bottom: 6%;
+        padding-top: 6%;
+        background-color: #ffffff;
+    }
+
+
+
+
+
+  /* Footer */
+  #card-foot{
+    background-color:#FDF7F2 ;
+  }

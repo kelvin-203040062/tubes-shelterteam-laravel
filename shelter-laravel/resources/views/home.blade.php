@@ -13,21 +13,21 @@
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="img/122.jpg" class="d-block w-100" style="filter: blur(3px); -webkit-filter: blur(3px)" >
-                    <div class="carousel-caption d-none d-md-block" style="margin-bottom: 150px; font-size: 30px; font-family: 'Roboto'">
-                        <h1>Welcome to .conf Shoes Store</h1>
+                    <div class="carousel-caption d-md-block" style="margin-bottom: 300px; font-size: 30px; font-family: 'Roboto'">
+                        <h1>Welcome to .conf Shoes Store </h1>
                         <p>Happy Shopping</p>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src="img/14.png" class="d-block w-100" style="filter: blur(3px); -webkit-filter: blur(3px)">
-                    <div class="carousel-caption d-none d-md-block" style="margin-bottom: 150px; font-size: 30px; font-family: 'Roboto'">
+                    <div class="carousel-caption d-md-block" style="margin-bottom: 300px; font-size: 30px; font-family: 'Roboto'">
                         <h1>Welcome to .conf Shoes Store</h1>
                         <p>Happy Shopping</p>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src="img/15.jpg" class="d-block w-100" style="filter: blur(3px); -webkit-filter: blur(3px)">
-                    <div class="carousel-caption d-none d-md-block" style="margin-bottom: 200px; font-size: 30px; font-family: 'Roboto'">
+                    <div class="carousel-caption d-md-block" style="margin-bottom: 300px; font-size: 30px; font-family: 'Roboto'">
                         <h1>Welcome to .conf Shoes Store</h1>
                         <p>Happy Shopping</p>
                     </div>
@@ -44,7 +44,7 @@
            <img src="img/Adidas.jpg" class="card-img-top">
            <div class="card-body">
               <h3 style="text-align: center">Adidas</h3>
-               <a href="/categories" class="btn btn-outline-success" role="button" style="margin-left: 100px; margin-top: 10px"><i class="bi bi-cart"></i> Explore</a>
+               <a href="/categories" class="btn btn-outline-success" role="button" style="margin-left: 115px; margin-top: 10px"><i class="bi bi-cart"></i> Explore</a>
            </div>
         </div>
      </div>
@@ -53,7 +53,7 @@
            <img src="img/Nike.jpg" class="card-img-top">
            <div class="card-body">
               <h3 style="text-align: center">Nike</h3>
-               <a href="/categories" class="btn btn-outline-success" role="button" style="margin-left: 100px; margin-top: 10px"><i class="bi bi-cart"></i> Explore</a>
+               <a href="/categories" class="btn btn-outline-success" role="button" style="margin-left: 115px; margin-top: 10px"><i class="bi bi-cart"></i> Explore</a>
            </div>
         </div>
      </div>
@@ -62,7 +62,7 @@
            <img src="img/Puma.jpg" class="card-img-top">
            <div class="card-body">
               <h3 style="text-align: center">Puma</h3>
-               <a href="/categories" class="btn btn-outline-success" role="button" style="margin-left: 100px; margin-top: 10px"><i class="bi bi-cart"></i> Explore</a>
+               <a href="/categories" class="btn btn-outline-success" role="button" style="margin-left: 115px; margin-top: 10px"><i class="bi bi-cart"></i> Explore</a>
               </div>
            </div>
         </div>
