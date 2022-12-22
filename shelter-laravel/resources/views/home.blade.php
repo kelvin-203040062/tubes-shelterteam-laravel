@@ -4,18 +4,36 @@
 
     <!-- image slider -->
     <div class="container mt-2">
-        <div class="carousel slide" data-bs-ride="carousel" style="margin-top: -25px;">
-     <div class="carousel-inner">
-        <div class="carousel-item">
-           <img src="img/122.jpg" class="d-block w-100" alt="...">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/122.jpg" class="d-block w-100" style="filter: blur(3px); -webkit-filter: blur(3px)" >
+                    <div class="carousel-caption d-none d-md-block" style="margin-bottom: 150px; font-size: 30px; font-family: 'Roboto'">
+                        <h1>Welcome to .conf Shoes Store</h1>
+                        <p>Happy Shopping</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/14.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Second slide label</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/11.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="carousel-item active">
-           <img src="img/11.jpg" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-caption mt-1 mb-0">
-            <h5 style="color: black"></h5>
-         </div>
-     </div>
   </div>
 
         <p>
