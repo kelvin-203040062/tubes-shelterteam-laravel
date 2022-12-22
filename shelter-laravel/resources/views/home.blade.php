@@ -138,4 +138,3 @@ integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yA
 </script>
 
 @endsection
-
