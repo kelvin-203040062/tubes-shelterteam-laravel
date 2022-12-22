@@ -36,7 +36,7 @@
         <div class="row content">
           <div class="col-lg-6">
             <p>
-            .CONF founded in 2022, is a shoe brand based in Indonesia, that seeks and manufactures the perfect locally made leather shoes for every day. They use synthetic or vegan leather sprouts from brand advocacy, namely to avoid using animal skins for their products. 
+            .conf founded in 2022, is a shoe brand based in Indonesia, that seeks and manufactures the perfect locally made leather shoes for every day. They use synthetic or vegan leather sprouts from brand advocacy, namely to avoid using animal skins for their products.
             the advantages of our products are:</p>
             <ul>
               <li>- Affordable prices with</li>
@@ -46,7 +46,7 @@
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0">
             <p>
-            .CONF also aims to remain affordable without compromising on the quality of its products. We aim to create art in the form of shoes. We believe that every pair is an expression that cannot be copied or recreated. We want to share various art forms that represent YOU.
+            .conf also aims to remain affordable without compromising on the quality of its products. We aim to create art in the form of shoes. We believe that every pair is an expression that cannot be copied or recreated. We want to share various art forms that represent YOU.
             </p>
             <a href="#" class="btn-learn-more">Learn More</a>
           </div>
@@ -67,7 +67,7 @@
           <div class="col-lg-6 pt-3 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">
             <h3>Various shoe products that we sell.</h3>
             <p class="fst-italic">
-            Besides affordable prices and good quality, .CONF has a wide selection of types and models so you probably won't get bored.
+            Besides affordable prices and good quality, .conf has a wide selection of types and models so you probably won't get bored.
             </p>
             <ul>
               <li><i class="bx bx-check-double"></i> Sneakers</li>
@@ -135,9 +135,9 @@
                   Wow, the item is really good, it's comfortable to wear, you don't regret shopping here, it's very reliable, the price is also affordable, the seller is also friendly, chat is answered immediately.
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
-                <img src="img/{{ ('testimonials/testimonials-1.jpg') }}" class="testimonial-img" alt="">
-                <h3>Saul Goodman</h3>
-                <h4>Ceo &amp; Founder</h4>
+                <img src="img/{{ ('testimonials/kelvin.jpeg') }}" class="testimonial-img" alt="">
+                <h3>Kelvin</h3>
+                <h4>Team Leader</h4>
               </div>
             </div><!-- End testimonial item -->
 
@@ -149,8 +149,8 @@
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
                 <img src="img/{{ ('testimonials/testimonials-2.jpg') }}" class="testimonial-img" alt="">
-                <h3>Sara Wilsson</h3>
-                <h4>Designer</h4>
+                <h3>Hervin Fakhrul Mahardika</h3>
+                <h4>Back End</h4>
               </div>
             </div><!-- End testimonial item -->
 
@@ -162,8 +162,8 @@
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
                 <img src="img/{{ ('testimonials/testimonials-3.jpg') }}" class="testimonial-img" alt="">
-                <h3>Jena Karlis</h3>
-                <h4>Store Owner</h4>
+                <h3>Rizky Mahendra</h3>
+                <h4>Back End</h4>
               </div>
             </div><!-- End testimonial item -->
 
@@ -175,8 +175,8 @@
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
                 <img src="img/{{ ('testimonials/testimonials-4.jpg') }}" class="testimonial-img" alt="">
-                <h3>Matt Brandon</h3>
-                <h4>Freelancer</h4>
+                <h3>Yulius Yogi Yuwono</h3>
+                <h4>Front End</h4>
               </div>
             </div><!-- End testimonial item -->
 
@@ -188,8 +188,8 @@
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
                 <img src="img/{{ ('testimonials/testimonials-5.jpg') }}" class="testimonial-img" alt="">
-                <h3>John Larson</h3>
-                <h4>Entrepreneur</h4>
+                <h3>Religi Realista Esthetika</h3>
+                <h4>Front End</h4>
               </div>
             </div><!-- End testimonial item -->
 
@@ -200,35 +200,12 @@
       </div>
     </section><!-- End Testimonials Section -->
 
-  
 
-  <!-- Site footer -->
-  <footer class="site-footer">
-      
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8 col-sm-6 col-xs-12">
-            <p class="copyright-text">Copyright &copy; 2017 All Rights Reserved by 
-         <a href="#">Scanfcode</a>.
-            </p>
-          </div>
-
-          <div class="col-md-4 col-sm-6 col-xs-12">
-            <ul class="social-icons">
-              <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-              <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-              <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
-              <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
-            </ul>
-          </div>
-        </div>
-      </div>
-</footer>
 
   <div id="preloader"></div>
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-  
+
 </body>
 </html>
 

@@ -11,7 +11,7 @@
         <script src="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet" crossorigin="anonymous"></script>
     </head>
     <body>
-        
+
         <div class = "main-container">
             <h2>Our Categories</h2>
             <p>When choosing footwear, make sure you adjust it to the type of event and where you are going. Choosing the right shoes will enhance your appearance and increase your self-confidence.</p>
@@ -74,12 +74,12 @@
                             <button type = "button" class = "read-btn">Read All</button>
                         </div>
                         <!-- end of single post -->
-                      
+
                     </div>
                 </div>
             </div>
         </div>
-        
+
 
     </body>
 </html>

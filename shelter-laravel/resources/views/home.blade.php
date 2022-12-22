@@ -7,13 +7,13 @@
         <div class="carousel slide" data-bs-ride="carousel" style="margin-top: -25px;">
      <div class="carousel-inner">
         <div class="carousel-item">
-           <img src="img/14.png" class="d-block w-100" alt="...">
+           <img src="img/122.jpg" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item active">
            <img src="img/11.jpg" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-caption mt-1 mb-0">
-            <h5 style="color: black">Welcome to Shoes Store</h5>
+            <h5 style="color: black"></h5>
          </div>
      </div>
   </div>
@@ -60,6 +60,71 @@
       </div>
    </div>
   </div>
+  <div class="container" style="background-color: #ed2424;">
+    <h2 style="font-size: 100px; text-align:center; color:white;">PROMO</h2>
+    <h2 style="font-size: 100px; text-align:center; color:white;">AWAL</h2>
+    <h2 style="font-size: 100px; text-align:center; color:white;">TAHUN</h2>
+ </div>
+ <section id="contact" class="contact mb-5">
+    <div class="container">
+       <div class="row pt-4 mb-4">
+          <div class="col text-center">
+             <h2 class="contact1">Contact</h2>
+          </div>
+       </div>
+
+
+       <div class="row justify-content-center">
+
+          <div class="col-lg-4 ">
+             <div class="card text-white bg-dark mb-3 text-center">
+                <div class="card-body">
+                   <h5 class="card-title ">Shelter</h5>
+                   <p class="card-text">Terimakasih karena sudah mengunjungi toko kami</p>
+                </div>
+             </div>
+             <ul class="list-group">
+                <li class="list-group-item">
+                   <h1>location</h1>
+                </li>
+                <li class="list-group-item">Shelter Shoes</li>
+                <li class="list-group-item">Jl. Baleendah Kab. Bandung Selatan </li>
+                <li class="list-group-item">Jawa Barat, indonesia</li>
+             </ul>
+          </div>
+
+
+
+          <div class="col-lg-6 isian">
+             <form>
+                <div class="form-group">
+                   <label for="Nama">Nama </label>
+                   <input type="text" class="form-control" id="Nama">
+                </div>
+                <div class="form-group">
+                   <label for="Email">Email </label>
+                   <input type="text" class="form-control" id="Email">
+                </div>
+                <div class="form-group">
+                   <label for="No Telpon">No Telpon </label>
+                   <input type="text" class="form-control" id="No Telpon">
+                </div>
+                <div class="form-group">
+                   <label for="pesan">Pesan </label>
+                   <textarea name="pesan" id="pesan" class="form-control"></textarea>
+                </div>
+                <div class="from-grup">
+                   <button type="button" class="btn btn-primary">Kirim pesan</button>
+                </div>
+             </form>
+          </div>
+
+
+       </div>
+
+    </div>
+
+ </section>
 <div class="container">
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
 integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
