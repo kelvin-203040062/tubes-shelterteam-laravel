@@ -49,7 +49,7 @@
                     <input type="password" name="password" class="input" id="password" required>
                 </div>
             </div>
-            <a href="/register">Not Registered? Register Here</a>
+            <a href="/register">Belum Register? Register Disini</a>
             <input type="submit" class="btn" value="Login">
         </form>
     </div>
