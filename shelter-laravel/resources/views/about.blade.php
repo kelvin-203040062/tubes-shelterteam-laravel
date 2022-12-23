@@ -109,8 +109,10 @@
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
                 <img src="img/{{ ('testimonials/kelvin.jpeg') }}" class="testimonial-img">
-                <h3>Kelvin</h3>
+                <h3>Kelvin Ardiansah</h3>
                 <h4>Team Leader</h4>
+                <a href="https://github.com/kelvin-203040062/"><i class="bi bi-github" style="color: black"></i> </a>
+                <a href="https://www.instagram.com/fazy_stain/"><i class="bi bi-instagram" style="color: black"></i> </a>
               </div>
             </div>
           <!-- End testimonial item -->
@@ -125,6 +127,8 @@
                 <img src="img/{{ ('testimonials/hervin.jpeg') }}" class="testimonial-img">
                 <h3>Hervin Fakhrul Mahardika</h3>
                 <h4>Back End</h4>
+                <a href="https://github.com/QueenAgella/"><i class="bi bi-github" style="color: black"></i> </a>
+                <a href="https://www.instagram.com/hervinfakhrul/"><i class="bi bi-instagram" style="color: black"></i> </a>
               </div>
             </div>
           <!-- End testimonial item -->
@@ -139,6 +143,8 @@
                 <img src="img/{{ ('testimonials/mahendra.jpeg') }}" class="testimonial-img">
                 <h3>Rizky Mahendra</h3>
                 <h4>Back End</h4>
+                <a href="https://github.com/Alginatic/"><i class="bi bi-github" style="color: black"></i> </a>
+                <a href="https://www.instagram.com/rzkymhnn/"><i class="bi bi-instagram" style="color: black"></i> </a>
               </div>
             </div>
           <!-- End testimonial item -->
@@ -153,6 +159,8 @@
                 <img src="img/{{ ('testimonials/yulius.jpeg') }}" class="testimonial-img">
                 <h3>Yulius Yogi Yuwono</h3>
                 <h4>Front End</h4>
+                <a href="https://github.com/YuliusYogiYuwono/"><i class="bi bi-github" style="color: black"></i> </a>
+                <a href="https://www.instagram.com/yuliusyogi_/"><i class="bi bi-instagram" style="color: black"></i> </a>
               </div>
             </div>
           <!-- End testimonial item -->
@@ -167,6 +175,8 @@
                 <img src="img/{{ ('testimonials/religi.jpeg') }}" class="testimonial-img" alt="">
                 <h3>Religi Realista Esthetika</h3>
                 <h4>Front End</h4>
+                <a href="https://github.com/realistarrr/"><i class="bi bi-github" style="color: black"></i> </a>
+                <a href=" https://instagram.com/realistarrr/"><i class="bi bi-instagram" style="color: black"></i> </a>
               </div>
             </div>
           <!-- End testimonial item -->
