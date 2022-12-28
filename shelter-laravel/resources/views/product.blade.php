@@ -3,7 +3,7 @@
 @section('container')
 <body>
    <div class="container mt-4">
-      <h1 class="mb-3 text-center">Shoes Store</h1>
+      <h1 class="mb-3 text-center">Product</h1>
 <div class="row justify-content-center mb-3">
    <div class="col-md-6">
       <form action="/post">

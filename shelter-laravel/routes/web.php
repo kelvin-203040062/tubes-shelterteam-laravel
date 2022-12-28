@@ -1,10 +1,10 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\PostController;
+use App\Http\Controllers\ProductController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\RegisterController;
-use App\Http\Controllers\DashboardPostController;
+use App\Http\Controllers\DashboardProductController;
 use App\Models\Category;
 
 
@@ -75,7 +75,7 @@ Route::get('/categories', function () {
     return view('categories', [
         'title' => 'Product Categories',
         'active' => 'categories',
-//        'categories' =>Category::all()
+        'categories' =>Category::all()
     ]);
 });
 
@@ -87,8 +87,8 @@ Route::get('/product', function () {
 });
 
 
-//Route::get('/posts', [PostController::class. 'index']);
-//Route::get('posts/{post:slug}', [PostController::class, 'show']);
+//Route::get('/product', [ProductController::class. 'index']);
+//Route::get('posts/{post:slug}', [ProductController::class, 'show']);
 
 Route::get('/login', [LoginController::class, 'index'])->name('login')->middleware('guest');
 Route::post('/login', [LoginController::class, 'authenticate']);
@@ -101,7 +101,7 @@ Route::get('/dashboard', function () {
     return view('dashboard.index');
 })->middleware('auth');
 
-Route::get('/dashboard/posts/checkSlug', [DashboardPostController::class, 'checkSlug']) ->middleware('auth');
-Route::resource('/dashboard/posts', DashboardPostController::class)->middleware('auth');
+Route::get('/dashboard/posts/checkSlug', [DashboardProductController::class, 'checkSlug']) ->middleware('auth');
+Route::resource('/dashboard/posts', DashboardProductController::class)->middleware('auth');
 
 Route::resource('/dashboard/categories', \App\Http\Controllers\AdminCategoryController::class)->except('show')->middleware('admin');
