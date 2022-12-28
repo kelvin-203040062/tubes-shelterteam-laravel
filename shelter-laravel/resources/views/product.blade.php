@@ -3,7 +3,7 @@
 @section('container')
 <body>
    <div class="container mt-4">
-      <h1 class="mb-3 text-center">Product</h1>
+      <h1 class="mb-3 text-center">{{ $title }}</h1>
 <div class="row justify-content-center mb-3">
    <div class="col-md-6">
       <form action="/post">
@@ -28,7 +28,7 @@
          </small>
       </p>
       <p class="card-text">KENYAMANAN TIADA HENTI.Bantalannya lebih empuk, kanvasnya lebih kuat, sama serba gunanya. Chuck 70 dirancang berdasarkan desain orisinal tahun 1970-an, dengan material premium dan perhatian luar biasa...</p>
-      <a href="/posts/converse-green-high" class="text-decoration-none btn btn-primary">Readmore</a>
+      <a href="/posts/converse-green-high" class="text-decoration-none btn btn-primary">{{ $button }}</a>
    </div>
 
     <div class="container">
@@ -46,7 +46,7 @@
                   </p>
                   <p class="card-text">First known as the Vans #36, the Old Skool debuted in 1977 with a unique new addition: a random doodle drawn by founder Paul Van Doren, and originally referred to as the “jazz stripe.” Today, the famo...</p>
                   <br>
-                    <a href="/posts/vans" class="btn btn-primary">Read more..</a>
+                    <a href="/posts/vans" class="btn btn-primary">{{ $button }}</a>
                </div>
             </div>
          </div>
@@ -63,7 +63,7 @@
                      </small>
                   </p>
                   <p class="card-text">KENYAMANAN TIADA HENTI.Bantalannya lebih empuk, kanvasnya lebih kuat, sama serba gunanya. Chuck 70 dirancang berdasarkan desain orisinal tahun 1970-an, dengan material premium dan perhatian luar biasa...</p>
-                  <a href="/posts/converse-black-low" class="btn btn-primary">Read more..</a>
+                  <a href="/posts/converse-black-low" class="btn btn-primary">{{ $button }}</a>
                </div>
             </div>
          </div>
@@ -80,7 +80,7 @@
                      </small>
                   </p>
                   <p class="card-text">KENYAMANAN TIADA HENTI.Bantalannya lebih empuk, kanvasnya lebih kuat, sama serba gunanya. Chuck 70 dirancang berdasarkan desain orisinal tahun 1970-an, dengan material premium dan perhatian luar biasa...</p>
-                  <a href="/posts/converse-white-green" class="btn btn-primary">Read more..</a>
+                  <a href="/posts/converse-white-green" class="btn btn-primary">{{ $button }}</a>
                </div>
             </div>
          </div>
@@ -97,7 +97,7 @@
                      </small>
                   </p>
                   <p class="card-text">Upper Canvas 12ozMenggunakan material canvas 12oz berkualitas baik, cukup lembut, dan memiliki daya tahan yang kuat sehingga cocok untuk digunakan sehari-hari.Ultralite Foam InsoleTeknologi Ultralite...</p>
-                  <a href="/posts/ventela-low-green" class="btn btn-primary">Read more..</a>
+                  <a href="/posts/ventela-low-green" class="btn btn-primary">{{ $button }}</a>
                </div>
             </div>
          </div>
@@ -114,7 +114,7 @@
                         </small>
                     </p>
                     <p class="card-text">Upper Canvas 12ozMenggunakan material canvas 12oz berkualitas baik, cukup lembut, dan memiliki daya tahan yang kuat sehingga cocok untuk digunakan sehari-hari.Ultralite Foam InsoleTeknologi Ultralite...</p>
-                    <a href="/posts/ventela-navy" class="btn btn-primary">Read more..</a>
+                    <a href="/posts/ventela-navy" class="btn btn-primary">{{ $button }}</a>
                </div>
             </div>
         </div>
@@ -131,7 +131,7 @@
                             </small>
                         </p>
                         <p class="card-text">First known as the Vans #36, the Old Skool debuted in 1977 with a unique new addition: a random doodle drawn by founder Paul Van Doren, and originally referred to as the “jazz stripe.” Today, the famo...</p>
-                        <a href="/posts/vans-high-black" class="btn btn-primary">Read more..</a>
+                        <a href="/posts/vans-high-black" class="btn btn-primary">{{ $button }}</a>
                     </div>
                 </div>
             </div>
@@ -146,9 +146,9 @@
         </ul>
     </nav>
    </div>
-   <div class="container">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-<link rel="stylesheet" type="text/css" href="{{ asset('css/home.css') }}">
+   <div class="container">
+<script src="{{ url('https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js') }}" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="{{ url('https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css') }}" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="css/{{ $css }}">
 @endsection

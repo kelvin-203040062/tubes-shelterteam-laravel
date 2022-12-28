@@ -11,7 +11,19 @@ class LoginController extends Controller
     {
         return view('login.index', [
             'title' => 'Login',
-            'active' => 'login'
+            'active' => 'login',
+
+            'home' => 'Welcome',
+            'user' => 'Username',
+            'pass' => 'Password',
+
+            'wave' => 'wave.png',
+            'avatar' => 'avatar.svg',
+            'bg' => 'bg.svg',
+            'register' => 'Belum Punya Akun? Daftar Disini',
+
+            'css' => 'login.css',
+            'js' => 'login.js'
         ]);
     }
 

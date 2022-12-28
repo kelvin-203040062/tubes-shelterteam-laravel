@@ -12,7 +12,21 @@ class RegisterController extends Controller
     {
         return view('register.index',[
             'title' => 'Register',
-            'active' => 'register'
+            'active' => 'register',
+
+            'home' => 'Daftar',
+            'name' => 'Nama',
+            'user' => 'Username',
+            'email' => 'Email',
+            'pass' => 'Password',
+
+            'wave' => 'wave.png',
+            'bg' => 'bg.svg',
+            'avatar' => 'avatar.svg',
+            'login' => 'Sudah Daftar? Login Disini',
+
+            'css' => 'login.css',
+            'js' => 'login.js'
         ]);
     }
 
