@@ -7,6 +7,13 @@
     background-color: #ffffff;
     font-family: 'Futura Bk BT';
   }
+  @media screen and (min-width: 1500px) {
+    .container {
+        width: 1500px;
+        margin-left: 150px;
+        margin-right: auto;
+    }
+ }
 
   p{
     line-height: 1.7;
@@ -18,11 +25,11 @@
     }
 
     .navbar-brand{
-        padding-left: 15%;
+        padding-left: 27%;
     }
 
     .navbar-nav{
-        padding-right: 20%;
+        padding-right: 15%;
     }
 
     .navbar-light{
@@ -55,36 +62,10 @@
     }
 
 
-  /* Image Slider */
-    .carousel .carousel-item {
-        height: 80vh;
-        transition-duration: 1.5s;
-    }
 
-    .carousel-item img {
-        position: absolute;
-        object-fit:cover;
-        top: 0;
-        left: 0;
-        min-height: 500px;
-        transition-duration: 1s;
-    }
 
-  /* searching form */
-  .warning{
-    display: flex;
-    align-items: center;
-  }
 
   /* Footer */
   #card-foot{
     background-color:#FDF7F2 ;
   }
-  .site-footer
-{
-  background-color:#ffffff;
-  padding:45px 0 20px;
-  font-size:15px;
-  line-height:24px;
-  color:#000000;
-}
