@@ -29,11 +29,8 @@
                                 <h2>Impossible is Nothing</h2>
                                 <p>Keunggulan lain yang Adidas tawarkan adalah bobot sepatu yang cenderung ringan, serta dengan bahan yang lembut, sehingga selain nyaman, sepatu bola Adidas juga membantu Anda dalam berlari dan mengolah bola.</p>
                             </div>
-<<<<<<< HEAD
                             <a href="/product" class="btn btn-outline-success" role="button" style="margin-left: 100px; margin-top: 10px">Explore</a>
-=======
                             <button type = "button" class = "read-btn">Selengkapnya</button>
->>>>>>> 756e7850a5675163ba05e77a4b6cd4b17217f161
                         </div>
                         <!-- end of single post -->
                         <!-- single post -->
@@ -47,11 +44,8 @@
                                 <h2>Just Do It!</h2>
                                 <p>Sepatu Nike adalah produk yang diluncurkan oleh Nike Inc. Nike Inc. adalah produsen sepatu dan perlengkapan olahraga dari Amerika Serikat. Didirikan pada tanggal 30 Mei 1978, kini Nike telah menjadi salah satu merek olahraga terbaik dan tersebar di seluruh dunia.</p>
                             </div>
-<<<<<<< HEAD
                             <a href="/product" class="btn btn-outline-success" role="button" style="margin-left: 100px; margin-top: 10px">Explore</a>
-=======
                             <button type = "button" class = "read-btn">Selengkapnya</button>
->>>>>>> 756e7850a5675163ba05e77a4b6cd4b17217f161
                         </div>
                         <!-- end of single post -->
                         <!-- single post -->
@@ -65,11 +59,8 @@
                                 <h2>Forever Faster</h2>
                                 <p>Sepatu Puma merupakan alas kaki yang dihadirkan oleh merk serupa dan berasal dari Jerman. Merk ini memproduksi beraneka jenis sepatu olahraga. Pusat perusahaan ini berada di Herzonenaurach, Bavaria, Jerman.</p>
                             </div>
-<<<<<<< HEAD
                             <a href="/product" class="btn btn-outline-success" role="button" style="margin-left: 100px; margin-top: 10px">Explore</a>
-=======
                             <button type = "button" class = "read-btn">Selengkapnya</button>
->>>>>>> 756e7850a5675163ba05e77a4b6cd4b17217f161
                         </div>
                         <!-- end of single post -->
 

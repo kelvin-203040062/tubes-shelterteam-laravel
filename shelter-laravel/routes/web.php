@@ -73,7 +73,7 @@ Route::get('/about', function () {
 
 Route::get('/categories', function () {
     return view('categories', [
-        'title' => 'Post Categories',
+        'title' => 'Product Categories',
         'active' => 'categories',
 //        'categories' =>Category::all()
     ]);
@@ -81,7 +81,7 @@ Route::get('/categories', function () {
 
 Route::get('/product', function () {
     return view('product', [
-        "title" => "product",
+        "title" => "Product",
         "active" => 'product'
     ]);
 });
