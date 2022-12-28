@@ -29,7 +29,9 @@ Route::get('/', function () {
 Route::get('/about', function () {
     return view('about', [
         "title" => "about",
-        "active" => 'about'
+        "active" => 'about',
+        "name" => 'Hervin Fakhrul',
+        
     ]);
 });
 
