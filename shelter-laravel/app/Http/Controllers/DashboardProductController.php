@@ -9,7 +9,7 @@ use \Cviebrock\EloquentSluggable\Services\SlugService;
 use Illuminate\Support\Str;
 use Illuminate\Support\Facades\Storage;
 
-class DashboardPostController extends Controller
+class DashboardProductController extends Controller
 {
     /**
      * Display a listing of the resource.

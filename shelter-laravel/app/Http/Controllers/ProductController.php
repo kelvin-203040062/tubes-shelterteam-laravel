@@ -7,7 +7,7 @@ use App\Models\User;
 use Illuminate\Http\Request;
 use App\Models\Post;
 
-class PostController extends Controller
+class ProductController extends Controller
 {
     public function index()
     {

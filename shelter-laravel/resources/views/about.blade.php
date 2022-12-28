@@ -8,22 +8,23 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>About Us</h2>
+          <h2>{{ $title }}</h2>
         </div>
 
         <div class="row content">
           <div class="col-lg-6">
             <p>
-            .conf adalah sebuah website yang menyediakan berbagai macam jenis sepatu mulai dari Adidas, Nike sampai Puma, kami menjual sepatu yang berkualitas dn nyaman saat digunakan. Beberapa keungulan dari sepatu yang kami jual adalah :</p>
+            {{ $about }}
+            </p>
             <ul>
-              <li>- Harga terjangkau</li>
-              <li>- Kualitas terbaik</li>
-              <li>- Bervariatif</li>
+              <li>{{ $one }}</li>
+              <li>{{ $two }}</li>
+              <li>{{ $three }}</li>
             </ul>
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0">
             <p>
-            .conf memberikan harga tetap terjangkau tanpa mengurangi kualitas produknya. Kami bertujuan untuk menciptakan seni dalam bentuk sepatu. Kami percaya bahwa setiap pasangan adalah ekspresi yang tidak dapat disalin atau dibuat ulang. Kami ingin berbagi berbagai bentuk seni yang mewakili ANDA.
+                {{ $about2 }}
             </p>
             <a href="#" class="btn-learn-more">Selengkapnya</a>
           </div>
@@ -40,14 +41,14 @@
           </div>
 
           <div class="col-lg-6 pt-3 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">
-            <h3>Aneka produk sepatu yang kami sediakan.</h3>
+            <h3>{{ $product }}</h3>
             <p class="fst-italic">
-            Selain harga yang terjangkau dan kualitas yang baik, .conf memiliki banyak pilihan jenis dan model sehingga Anda mungkin tidak akan bosan.
+                {{ $product2 }}
             </p>
             <ul>
-              <li><i class="bx bx-check-double"></i> Adidas</li>
-              <li><i class="bx bx-check-double"></i> Nike</li>
-              <li><i class="bx bx-check-double"></i> Puma</li>
+              <li><i class="bx bx-check-double"></i> {{ $product3 }}</li>
+              <li><i class="bx bx-check-double"></i> {{ $product4 }}</li>
+              <li><i class="bx bx-check-double"></i> {{ $product5 }}</li>
             </ul>
           </div>
         </div>
@@ -105,12 +106,12 @@
               <div class="testimonial-item">
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Wah barangnya bagus banget, nyaman dipakai, ga nyesel belanja disini, terpercaya banget, harga juga terjangkau, penjualnya juga ramah, chat langsung dibalas.
+                    {{ $quote2 }}
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
-                <img src="img/{{ ('testimonials/kelvin.jpeg') }}" class="testimonial-img">
-                <h3>Kelvin Ardiansah</h3>
-                <h4>Team Leader</h4>
+                  <img src="img/testimonials/{{ $image2 }}" class="testimonial-img" alt="{{ $name2 }}}">
+                <h3>{{ $name2 }}</h3>
+                <h4>{{ $job2 }}</h4>
                 <a href="https://github.com/kelvin-203040062/"><i class="bi bi-github" style="color: black"></i> </a>
                 <a href="https://www.instagram.com/fazy_stain/"><i class="bi bi-instagram" style="color: black"></i> </a>
               </div>
@@ -121,12 +122,12 @@
               <div class="testimonial-item">
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Saya tidak menyangka dengan harga semurah itu saya bisa mendapatkan sepatu original dengan kualitas sebagus ini, top 10 bintang untuk penjualnya.
+                    {{ $quote }}
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
-                <img src="img/{{ ('testimonials/hervin.jpeg') }}" class="testimonial-img">
-                <h3>Hervin Fakhrul Mahardika</h3>
-                <h4>Back End</h4>
+                  <img src="img/testimonials/{{ $image }}" class="testimonial-img" alt="{{ $name }}">
+                <h3>{{ $name }}</h3>
+                <h4>{{ $job }}</h4>
                 <a href="https://github.com/QueenAgella/"><i class="bi bi-github" style="color: black"></i> </a>
                 <a href="https://www.instagram.com/hervinfakhrul/"><i class="bi bi-instagram" style="color: black"></i> </a>
               </div>
@@ -137,12 +138,12 @@
               <div class="testimonial-item">
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Sangat cantik. Ukurannya juga sempurna. Sepertinya kualitas ini akan bertahan sangat lama. Terima kasih!
+                    {{ $quote3 }}
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
-                <img src="img/{{ ('testimonials/mahendra.jpeg') }}" class="testimonial-img">
-                <h3>Rizky Mahendra</h3>
-                <h4>Back End</h4>
+                <img src="img/testimonials/{{ $image3 }}" class="testimonial-img" alt="{{ $name3 }}">
+                <h3>{{ $name3 }}</h3>
+                <h4>{{ $job3 }}</h4>
                 <a href="https://github.com/Alginatic/"><i class="bi bi-github" style="color: black"></i> </a>
                 <a href="https://www.instagram.com/rzkymhnn/"><i class="bi bi-instagram" style="color: black"></i> </a>
               </div>
@@ -153,12 +154,12 @@
               <div class="testimonial-item">
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Pengirimannya cepat, beli produk disini sangat berbaloi, harga terjangkau, adminnya responsif banget, recommended banget belanja di toko ini.
+                    {{ $quote4 }}
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
-                <img src="img/{{ ('testimonials/yulius.jpeg') }}" class="testimonial-img">
-                <h3>Yulius Yogi Yuwono</h3>
-                <h4>Front End</h4>
+                  <img src="img/testimonials/{{ $image4 }}" class="testimonial-img" alt="{{ $name4 }}">
+                  <h3>{{ $name4 }}</h3>
+                <h4>{{ $job4 }}</h4>
                 <a href="https://github.com/YuliusYogiYuwono/"><i class="bi bi-github" style="color: black"></i> </a>
                 <a href="https://www.instagram.com/yuliusyogi_/"><i class="bi bi-instagram" style="color: black"></i> </a>
               </div>
@@ -169,12 +170,12 @@
               <div class="testimonial-item">
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Keracunan temen yang membeli produk ini karena pas sampai barangnya bagus jadi langsung checkout, tidak mengecewakan. Sangat direkomendasikan.
+                    {{ $quote5 }}
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
-                <img src="img/{{ ('testimonials/religi.jpeg') }}" class="testimonial-img" alt="">
-                <h3>Religi Realista Esthetika</h3>
-                <h4>Front End</h4>
+                  <img src="img/testimonials/{{ $image5 }}" class="testimonial-img" alt="{{ $name5 }}">
+                  <h3>{{ $name5 }}</h3>
+                <h4>{{ $job5 }}</h4>
                 <a href="https://github.com/realistarrr/"><i class="bi bi-github" style="color: black"></i> </a>
                 <a href=" https://instagram.com/realistarrr/"><i class="bi bi-instagram" style="color: black"></i> </a>
               </div>
