@@ -104,19 +104,13 @@ Route::get('/categories', function () {
     return view('categories', [
         'title' => 'Product Categories',
         'active' => 'categories',
+
+        'home' => 'Kategori Kami',
+        'par1' => 'Saat memilih alas kaki, pastikan kamu menyesuaikannya dengan jenis acara dan kemana kamu akan pergi. Memilih sepatu yang tepat akan mempercantik penampilan dan menambah rasa percaya diri.',
+        'button' => 'Selengkapnya',
         'categories' =>Category::all()
     ]);
 });
-
-//Route::get('/product', function () {
-//    return view('product', [
-//        "title" => "Product",
-//        "active" => 'product',
-//
-//        'css' => 'home.css',
-//        'button' => 'Read More'
-//    ]);
-//});
 
 // All Product
 Route::get('/product', [ProductController::class, 'index']);
