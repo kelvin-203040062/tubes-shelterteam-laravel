@@ -96,8 +96,8 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>.CONF Shoes Store</h2>
-          <p>Shelter Team</p>
+          <h2>{{ $storename }}</h2>
+          <p>{{ $team }}</p>
         </div>
 
         <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
@@ -112,8 +112,8 @@
                   <img src="img/testimonials/{{ $image2 }}" class="testimonial-img" alt="{{ $name2 }}}">
                 <h3>{{ $name2 }}</h3>
                 <h4>{{ $job2 }}</h4>
-                <a href="https://github.com/kelvin-203040062/"><i class="bi bi-github" style="color: black"></i> </a>
-                <a href="https://www.instagram.com/fazy_stain/"><i class="bi bi-instagram" style="color: black"></i> </a>
+                <a href="{{ url('https://github.com/kelvin-203040062/') }}"><i class="bi bi-github" style="color: black"></i> </a>
+                <a href="{{ url('https://www.instagram.com/fazy_stain/') }}"><i class="bi bi-instagram" style="color: black"></i> </a>
               </div>
             </div>
           <!-- End testimonial item -->
@@ -128,8 +128,8 @@
                   <img src="img/testimonials/{{ $image }}" class="testimonial-img" alt="{{ $name }}">
                 <h3>{{ $name }}</h3>
                 <h4>{{ $job }}</h4>
-                <a href="https://github.com/QueenAgella/"><i class="bi bi-github" style="color: black"></i> </a>
-                <a href="https://www.instagram.com/hervinfakhrul/"><i class="bi bi-instagram" style="color: black"></i> </a>
+                <a href="{{ url('https://github.com/QueenAgella/') }}"><i class="bi bi-github" style="color: black"></i> </a>
+                <a href="{{ url('https://www.instagram.com/hervinfakhrul/') }}"><i class="bi bi-instagram" style="color: black"></i> </a>
               </div>
             </div>
           <!-- End testimonial item -->
@@ -144,8 +144,8 @@
                 <img src="img/testimonials/{{ $image3 }}" class="testimonial-img" alt="{{ $name3 }}">
                 <h3>{{ $name3 }}</h3>
                 <h4>{{ $job3 }}</h4>
-                <a href="https://github.com/Alginatic/"><i class="bi bi-github" style="color: black"></i> </a>
-                <a href="https://www.instagram.com/rzkymhnn/"><i class="bi bi-instagram" style="color: black"></i> </a>
+                <a href="{{ url('https://github.com/Alginatic/') }}"><i class="bi bi-github" style="color: black"></i> </a>
+                <a href="{{ url('https://www.instagram.com/rzkymhnn/') }}"><i class="bi bi-instagram" style="color: black"></i> </a>
               </div>
             </div>
           <!-- End testimonial item -->
@@ -160,8 +160,8 @@
                   <img src="img/testimonials/{{ $image4 }}" class="testimonial-img" alt="{{ $name4 }}">
                   <h3>{{ $name4 }}</h3>
                 <h4>{{ $job4 }}</h4>
-                <a href="https://github.com/YuliusYogiYuwono/"><i class="bi bi-github" style="color: black"></i> </a>
-                <a href="https://www.instagram.com/yuliusyogi_/"><i class="bi bi-instagram" style="color: black"></i> </a>
+                <a href="{{ url('https://github.com/YuliusYogiYuwono/') }}"><i class="bi bi-github" style="color: black"></i> </a>
+                <a href="{{ url('https://www.instagram.com/yuliusyogi_/') }}"><i class="bi bi-instagram" style="color: black"></i> </a>
               </div>
             </div>
           <!-- End testimonial item -->
@@ -176,8 +176,8 @@
                   <img src="img/testimonials/{{ $image5 }}" class="testimonial-img" alt="{{ $name5 }}">
                   <h3>{{ $name5 }}</h3>
                 <h4>{{ $job5 }}</h4>
-                <a href="https://github.com/realistarrr/"><i class="bi bi-github" style="color: black"></i> </a>
-                <a href=" https://instagram.com/realistarrr/"><i class="bi bi-instagram" style="color: black"></i> </a>
+                <a href="{{ url('https://github.com/realistarrr/') }}"><i class="bi bi-github" style="color: black"></i> </a>
+                <a href=" {{ url('https://instagram.com/realistarrr/') }}"><i class="bi bi-instagram" style="color: black"></i> </a>
               </div>
             </div>
           <!-- End testimonial item -->
@@ -190,8 +190,8 @@
 </body>
 
 <div class="container">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-<link rel="stylesheet" type="text/css" href="{{ asset('css/home.css') }}">
-<link href="css/{{ ('about.css') }}" rel="stylesheet">
+<link rel="stylesheet" href="{{ url('https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css') }}" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="css/{{ $css }}">
+<link href="css/{{ $css2 }}" rel="stylesheet">
 
 @endsection

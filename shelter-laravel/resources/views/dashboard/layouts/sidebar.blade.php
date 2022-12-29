@@ -4,13 +4,13 @@
             <li class="nav-item">
                 <a class="nav-link {{ Request::is('dashboard') ? 'active' : '' }}" aria-current="page" href="/dashboard">
                     <span data-feather="home" class="align-text-bottom"></span>
-                    Dashboard
+                    {{ $title }}
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link {{ Request::is('dashboard/posts*') ? 'active' : '' }}" href="/dashboard/posts">
+                <a class="nav-link {{ Request::is('dashboard/products*') ? 'active' : '' }}" href="/dashboard/posts">
                     <span data-feather="file-text"></span>
-                    My Posts
+                    My Product
                 </a>
             </li>
         </ul>
@@ -23,7 +23,7 @@
                 <li class="nav-item">
                     <a class="nav-link {{ Request::is('dashboard/categories') ? 'active' : '' }}" href="/dashboard/categories">
                         <span data-feather="grid"></span>
-                        Post Categories
+                        Product Categories
                     </a>
                 </li>
             </ul>

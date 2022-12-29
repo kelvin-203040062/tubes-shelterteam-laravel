@@ -3,9 +3,9 @@
 namespace App\Http\Controllers;
 
 use App\Models\Category;
+use App\Models\Product;
 use App\Models\User;
 use Illuminate\Http\Request;
-use App\Models\Post;
 
 class ProductController extends Controller
 {
@@ -23,21 +23,21 @@ class ProductController extends Controller
             $title = ' by ' . $author->name;
         }
 
-        return view('posts', [
-            "title" => "All Posts",
-            "active" => 'posts',
-//            "posts" => Post::all()
-            "posts" => Post::latest()->filter(request(['search', 'category', 'author']))->paginate(7)->withQueryString()
+        return view('products', [
+            "title" => "All Products",
+            "active" => 'products',
+//            "products" => Post::all()
+            "products" => Product::latest()->filter(request(['search', 'category', 'author']))->paginate(7)->withQueryString()
 
         ]);
     }
 
-    public function show(Post $post)
+    public function show(Product $product)
     {
-        return view('post', [
-            "title" => "Single Post",
-            "active" => 'posts',
-            "post" => $post
+        return view('products', [
+            "title" => "Product Details",
+            "active" => 'products',
+            "product" => $product
         ]);
     }
 }

@@ -22,7 +22,30 @@ use App\Models\Category;
 Route::get('/', function () {
     return view('home', [
         "title" => "Home",
-        "active" => 'home'
+        "active" => 'home',
+
+        'slider' => 'Welcome to .conf Shoes Store',
+        'slider2' => 'Happy Shopping!',
+
+        'img' => '122.jpg',
+        'img2' => '14.png',
+        'img3' => '15.jpg',
+
+        'img4' => 'Adidas.jpg',
+        'tit' => 'Adidas',
+        'img5' => 'Nike.jpg',
+        'tit2' => 'Nike',
+        'img6' => 'Puma.jpg',
+        'tit3' => 'Puma',
+        'button' => 'Explore',
+
+        'contact' => 'Contact Us',
+        'loc' => 'Location',
+        'storename' => '.CONF Shoes Store',
+        'addr' => 'Jl. Baleendah Kab. Bandung Selatan No.92',
+
+        'css' => 'home.css'
+
     ]);
 });
 
@@ -30,6 +53,9 @@ Route::get('/about', function () {
     return view('about', [
         "title" => "About Us",
         "active" => 'about',
+
+        'storename' => '.CONF Shoes Store',
+        'team' => 'Shelter Team',
 
         'about' => '.conf adalah sebuah website yang menyediakan berbagai macam jenis sepatu mulai dari Adidas, Nike sampai Puma, kami menjual sepatu yang berkualitas dn nyaman saat digunakan. Beberapa keungulan dari sepatu yang kami jual adalah :',
         'one' => '- Harga Terjangkau',
@@ -66,7 +92,10 @@ Route::get('/about', function () {
         "name5" => 'Religi Realista Esthetika',
         'job5' => 'Front End',
         'image5' => 'religi.jpeg',
-        'quote5' => 'Keracunan temen yang membeli produk ini karena pas sampai barangnya bagus jadi langsung checkout, tidak mengecewakan. Sangat direkomendasikan.'
+        'quote5' => 'Keracunan temen yang membeli produk ini karena pas sampai barangnya bagus jadi langsung checkout, tidak mengecewakan. Sangat direkomendasikan.',
+
+        'css' => 'home.css',
+        'css2' =>'about.css'
 
     ]);
 });
@@ -82,13 +111,16 @@ Route::get('/categories', function () {
 Route::get('/product', function () {
     return view('product', [
         "title" => "Product",
-        "active" => 'product'
+        "active" => 'product',
+
+        'css' => 'home.css',
+        'button' => 'Read More'
     ]);
 });
 
 
 //Route::get('/product', [ProductController::class. 'index']);
-//Route::get('posts/{post:slug}', [ProductController::class, 'show']);
+//Route::get('products/{post:slug}', [ProductController::class, 'show']);
 
 Route::get('/login', [LoginController::class, 'index'])->name('login')->middleware('guest');
 Route::post('/login', [LoginController::class, 'authenticate']);
@@ -98,10 +130,16 @@ Route::get('/register', [RegisterController::class, 'index'])->middleware('guest
 Route::post('/register', [RegisterController::class, 'store']);
 
 Route::get('/dashboard', function () {
-    return view('dashboard.index');
+    return view('dashboard.index', [
+        'title' =>'Dashboard',
+        'css' => 'dashboard.css',
+        'js' => 'dashboard.js',
+        'tcss' => 'trix.css',
+        'tjs' => 'trix.js'
+        ]);
 })->middleware('auth');
 
-Route::get('/dashboard/posts/checkSlug', [DashboardProductController::class, 'checkSlug']) ->middleware('auth');
-Route::resource('/dashboard/posts', DashboardProductController::class)->middleware('auth');
+Route::get('/dashboard/products/checkSlug', [DashboardProductController::class, 'checkSlug']) ->middleware('auth');
+Route::resource('/dashboard/products', DashboardProductController::class)->middleware('auth');
 
 Route::resource('/dashboard/categories', \App\Http\Controllers\AdminCategoryController::class)->except('show')->middleware('admin');
