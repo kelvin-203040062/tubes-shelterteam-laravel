@@ -112,10 +112,27 @@ Route::get('/categories', function () {
     ]);
 });
 
+<<<<<<< HEAD
 // All Product
 Route::get('/product', [ProductController::class, 'index']);
 // Single Product
 Route::get('products/{product:slug}', [ProductController::class, 'show']);
+=======
+Route::get('/product', function () {
+    return view('product', [
+        "title" => "Product",
+        "active" => 'product',
+
+        'css' => 'home.css',
+        'button' => 'Read More'
+    ]);
+});
+
+
+Route::get('/products', [ProductController::class. 'index']);
+Route::get('/products', [ProductController::class, 'show']);
+
+>>>>>>> 3c24a8d5091bdab519a65f3d80cef11be6036d54
 
 Route::get('/login', [LoginController::class, 'index'])->name('login')->middleware('guest');
 Route::post('/login', [LoginController::class, 'authenticate']);
