@@ -12,7 +12,7 @@
                         @foreach($categories as $category)
                         <div class = "all business">
                             <div class = "post-img">
-                                <img src="{{ asset('storage/' . $category->image) }}" alt="{{ $category->name }}" class="img-fluid mt-3">
+                                <img src="{{ asset('storage/' . $category->image) }}" alt="{{ $category->name }}" class="img-fluid mt-3" style="width: 450px; height:330px">
                                 <span class = "category-name">{{ $category->name }}</span>
                             </div>
 
@@ -20,7 +20,7 @@
                                 <h2></h2>
                                 <p>{{ $category->excerpt }}</p>
                             </div>
-                            <a href="/product?category={{ $category->slug }}" class="btn btn-outline-success" role="button" style="margin-left: 115px; margin-top: 10px">{{ $button }}</a>
+                            <a href="/product?category={{ $category->slug }}" class="btn btn-outline-success" role="button" style="margin-left: 135px; margin-top:-10px;margin-bottom:70px">{{ $button }}</a>
                         </div>
                         @endforeach
                     </div>

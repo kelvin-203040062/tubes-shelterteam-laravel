@@ -41,8 +41,8 @@
         <div class="row">
             @foreach($product->skip(1) as $products)
             <div class="col-md-4 mb-3">
-             <div class="card">
-               <div class="position-absolute px-3 py-2" style="background-color: rgba(0,0,0,0.7)"><a href="/product?category={{ $products->category->slug }}" class="text-white text-decoration-none">{{ $products->category->name }}</a></div>
+             <div class="card" style="border-radius: 10px">
+               <div class="position-absolute px-3 py-2" style="background-color: rgba(0,0,0,0.7); border-radius:10px"><a href="/product?category={{ $products->category->slug }}" class="text-white text-decoration-none">{{ $products->category->name }}</a></div>
                  @if($products->image)
                      <img src="{{ asset('storage/' . $products->image) }}" alt="{{ $products->category->name }}" class="img-fluid ">
                  @else
@@ -53,6 +53,7 @@
                   <p class="card-text">{{ $products->excerpt }}</p>
                   <br>
                     <a href="/product/{{ $products->slug }}" class="btn btn-primary">{{ $button }}</a>
+                    {{-- <a href="/products/{{ $products->slug }}" class="btn btn-primary">{{ $button }}</a>   --}}
                </div>
             </div>
          </div>

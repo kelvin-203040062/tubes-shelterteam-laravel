@@ -115,7 +115,7 @@ Route::get('/categories', function () {
 // All Product
 Route::get('/product', [ProductController::class, 'index']);
 // Single Product
-Route::get('products/{product:slug}', [ProductController::class, 'show']);
+Route::get('/products/{product:slug}', [ProductController::class, 'show']);
 
 Route::get('/login', [LoginController::class, 'index'])->name('login')->middleware('guest');
 Route::post('/login', [LoginController::class, 'authenticate']);
