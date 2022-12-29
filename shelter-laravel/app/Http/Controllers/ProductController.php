@@ -29,6 +29,7 @@ class ProductController extends Controller
 
             'css' => 'home.css',
             'button' => 'Read More',
+            'srch' => 'Search',
 //            "products" => Post::all()
             "product" => Product::latest()->filter(request(['search', 'category', 'author']))->paginate(7)->withQueryString()
 
