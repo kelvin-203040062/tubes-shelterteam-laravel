@@ -7,6 +7,12 @@
 <div class="row justify-content-center mb-3">
    <div class="col-md-6">
       <form action="/post">
+          @if(request('category'))
+              <input type="hidden" name="category" value="{{ request('category') }}">
+          @endif
+          @if(request('author'))
+              <input type="hidden" name="author" value="{{ request('author') }}">
+          @endif
          <div class="input-group mb-3">
             <input type="text" class="form-control" placeholder="Search..." name="search" value="">
             <button class="btn btn-primary" type="submit">Search</button>
@@ -16,40 +22,42 @@
 </div>
 
 <!-- kondisi postingan -->
+@if ($product->count())
 <div class="main-card mb-3">
+    @if($product[0]->image)
    <div class="main-img">
-      <img src="https://codebytes6.000webhostapp.com/storage/post-images/2rlrSXJeZWNrq82DDNxen7GfncQtd3YGJ93aANRn.jpg" alt="Converse" class="img-fluid">
+       <img src="{{ asset('storage/' . $product[0]->image) }}" alt="{{ $product[0]->category }}" class="img-fluid mt-3">
    </div>
-   <div class="card-body text-center">
-      <h3 class="card-title"><a href="/posts/converse-green-high" class="text-decoration-none text-dark">Converse green high</a></h3>
-      <p>
-         <small class="text-muted">
-            by. <a href="/post?author=jaya" class="text-decoration-none"> Jaya Permadi</a> in <a href="/post?category=converse" class="text-decoration-none">Converse</a> 1 year ago
-         </small>
-      </p>
-      <p class="card-text">KENYAMANAN TIADA HENTI.Bantalannya lebih empuk, kanvasnya lebih kuat, sama serba gunanya. Chuck 70 dirancang berdasarkan desain orisinal tahun 1970-an, dengan material premium dan perhatian luar biasa...</p>
-      <a href="/posts/converse-green-high" class="text-decoration-none btn btn-primary">{{ $button }}</a>
+    @else
+        <img src="https://source.unsplash.com/1200x400/?{{ $product[0]->category}}" alt="{{ $product[0]->category }}" class="img-fluid">
+    @endif
+      <div class="card-body text-center">
+      <h3 class="card-title"><a href="/product?author={{ $product[0]->slug }}" class="text-decoration-none text-dark"></a>{{ $product[0]->title }}</h3>
+      <p class="card-text">{{ $product[0]->excerpt }}</p>
+      <a href="/product/{{ $product[0]->slug }}" class="text-decoration-none btn btn-primary">{{ $button }}</a>
    </div>
 
     <div class="container">
         <div class="row">
+            @foreach($product->skip(1) as $products)
             <div class="col-md-4 mb-3">
              <div class="card">
-               <div class="position-absolute px-3 py-2" style="background-color: rgba(0,0,0,0.7)"><a href="/post?category=Vans" class="text-white text-decoration-none">Vans</a></div>
-                <img src="https://codebytes6.000webhostapp.com/storage/post-images/ET7ChuXLeL7AWDoLVz2pmYWumR04kMephQscPTCk.jpg" alt="Vans" class="img-fluid">
-                <div class="card-body">
-                  <h5 class="card-title">vans</h5>
-                  <p>
-                     <small class="text-muted">
-                        by. <a href="/post?author=jaya" class="text-decoration-none"> Jaya Permadi</a> 1 year ago
-                     </small>
-                  </p>
-                  <p class="card-text">First known as the Vans #36, the Old Skool debuted in 1977 with a unique new addition: a random doodle drawn by founder Paul Van Doren, and originally referred to as the “jazz stripe.” Today, the famo...</p>
+               <div class="position-absolute px-3 py-2" style="background-color: rgba(0,0,0,0.7)"><a href="/product?category={{ $products->category->slug }}" class="text-white text-decoration-none">{{ $products->category->title }}</a></div>
+                 @if($products->image)
+                     <img src="{{ asset('storage/' . $products->image) }}" alt="{{ $products->category->title }}" class="img-fluid ">
+                 @else
+                     <img src="https://source.unsplash.com/500x400/?{{ $products->category->title }}" class="card-img-top" alt="{{ $products->category->title }}">
+                 @endif
+                 <div class="card-body">
+                  <h5 class="card-title">{{ $products->title }}</h5>
+                  <p class="card-text">{{ $products->excerpt }}</p>
                   <br>
-                    <a href="/posts/vans" class="btn btn-primary">{{ $button }}</a>
+                    <a href="/product/{{ $products->slug }}" class="btn btn-primary">{{ $button }}</a>
                </div>
             </div>
          </div>
+            @endforeach
+                @endif
 
         <div class="col-md-4 mb-3">
             <div class="card">
