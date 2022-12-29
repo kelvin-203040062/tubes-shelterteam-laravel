@@ -116,19 +116,6 @@ Route::get('/categories', function () {
 Route::get('/product', [ProductController::class, 'index']);
 // Single Product
 Route::get('products/{product:slug}', [ProductController::class, 'show']);
-Route::get('/product', function () {
-    return view('product', [
-        "title" => "Product",
-        "active" => 'product',
-
-        'css' => 'home.css',
-        'button' => 'Read More'
-    ]);
-});
-
-
-Route::get('/products', [ProductController::class. 'index']);
-Route::get('/products', [ProductController::class, 'show']);
 
 Route::get('/login', [LoginController::class, 'index'])->name('login')->middleware('guest');
 Route::post('/login', [LoginController::class, 'authenticate']);

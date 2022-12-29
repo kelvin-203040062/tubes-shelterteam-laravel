@@ -14,7 +14,7 @@
               <input type="hidden" name="author" value="{{ request('author') }}">
           @endif
          <div class="input-group mb-3">
-            <input type="text" class="form-control" placeholder="Search..." name="search" value="">
+             <input type="text" class="form-control" placeholder="Search..." name="search" value=" {{ request('search') }}">
             <button class="btn btn-primary" type="submit">Search</button>
          </div>
       </form>
@@ -22,7 +22,7 @@
 </div>
 
 <!-- kondisi postingan -->
-@if ($product->count())
+@if($product->count())
 <div class="main-card mb-3">
     @if($product[0]->image)
    <div class="main-img">
