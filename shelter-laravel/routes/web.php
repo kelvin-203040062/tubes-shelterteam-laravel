@@ -104,10 +104,18 @@ Route::get('/categories', function () {
     return view('categories', [
         'title' => 'Product Categories',
         'active' => 'categories',
+
+        'home' => 'Kategori Kami',
+        'par1' => 'Saat memilih alas kaki, pastikan kamu menyesuaikannya dengan jenis acara dan kemana kamu akan pergi. Memilih sepatu yang tepat akan mempercantik penampilan dan menambah rasa percaya diri.',
+        'button' => 'Selengkapnya',
         'categories' =>Category::all()
     ]);
 });
 
+// All Product
+Route::get('/product', [ProductController::class, 'index']);
+// Single Product
+Route::get('products/{product:slug}', [ProductController::class, 'show']);
 Route::get('/product', function () {
     return view('product', [
         "title" => "Product",
@@ -121,7 +129,6 @@ Route::get('/product', function () {
 
 Route::get('/products', [ProductController::class. 'index']);
 Route::get('/products', [ProductController::class, 'show']);
-
 
 Route::get('/login', [LoginController::class, 'index'])->name('login')->middleware('guest');
 Route::post('/login', [LoginController::class, 'authenticate']);

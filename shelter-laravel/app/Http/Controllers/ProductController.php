@@ -23,11 +23,14 @@ class ProductController extends Controller
             $title = ' by ' . $author->name;
         }
 
-        return view('products', [
-            "title" => "All Products",
-            "active" => 'products',
+        return view('product', [
+            "title" => "All Product",
+            "active" => 'product',
+
+            'css' => 'home.css',
+            'button' => 'Read More',
 //            "products" => Post::all()
-            "products" => Product::latest()->filter(request(['search', 'category', 'author']))->paginate(7)->withQueryString()
+            "product" => Product::latest()->filter(request(['search', 'category', 'author']))->paginate(7)->withQueryString()
 
         ]);
     }
