@@ -112,6 +112,14 @@ Route::get('/categories', function () {
     ]);
 });
 
+Route::get('/cart', function () {
+    return view('cart', [
+        'title' => 'Cart',
+        'active' => 'cart'
+
+    ]);
+});
+
 // All Product
 Route::get('/product', [ProductController::class, 'index']);
 // Single Product
@@ -138,3 +146,4 @@ Route::get('/dashboard/products/checkSlug', [DashboardProductController::class, 
 Route::resource('/dashboard/products', DashboardProductController::class)->middleware('auth');
 
 Route::resource('/dashboard/categories', \App\Http\Controllers\AdminCategoryController::class)->except('show')->middleware('admin');
+Route::get('/cart,{$id}', [ProductController::class, 'cart']) ->middleware('auth');
