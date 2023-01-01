@@ -12,15 +12,15 @@
                         @foreach($categories as $category)
                         <div class = "all business">
                             <div class = "post-img">
-                                <img src="{{ asset('storage/' . $category->image) }}" alt="{{ $category->name }}" class="img-fluid mt-3" style="width: 450px; height:330px">
+                                <img src="{{ asset('storage/' . $category->image) }}" alt="{{ $category->name }}" class="img-fluid mt-3" style="width: 450px; height:330px; margin-left:2%">
                                 <span class = "category-name">{{ $category->name }}</span>
                             </div>
 
-                            <div class = "post-content">
+                            <div class = "post-content" style="margin-left: 22%">
                                 <h2></h2>
                                 <p>{{ $category->excerpt }}</p>
                             </div>
-                            <a href="/product?category={{ $category->slug }}" class="btn btn-outline-success" role="button" style="margin-left: 135px; margin-top:-10px;margin-bottom:70px">{{ $button }}</a>
+                            <a href="/product?category={{ $category->slug }}" class="btn btn-outline-success" role="button" style="margin-left: 32%; margin-top:-10px;margin-bottom:70px">{{ $button }}</a>
                         </div>
                         @endforeach
                     </div>

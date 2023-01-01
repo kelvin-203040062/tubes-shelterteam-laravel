@@ -70,8 +70,8 @@
                     <input class="btn btn-primary"type="submit" value="Add Cart">
 
                     </form>
-                    
-                    
+
+
                </div>
             </div>
          </div>
