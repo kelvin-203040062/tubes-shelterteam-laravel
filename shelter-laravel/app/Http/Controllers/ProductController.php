@@ -6,6 +6,7 @@ use App\Models\Category;
 use App\Models\Product;
 use App\Models\User;
 use Illuminate\Http\Request;
+use App\Models\Cart;
 
 class ProductController extends Controller
 {
@@ -43,5 +44,30 @@ class ProductController extends Controller
             "active" => 'products',
             "product" => $product
         ]);
+    }
+
+    public function cart(Request $request)
+    {
+        if(Auth::id())
+        {
+            $user=auth()->user();
+            $product=product::find($id);
+            $cart= new cart;
+
+            $cart->name=$user->name;
+            $cart->phone=$user->phone;
+            $cart->addres=$user->address;
+            $cart->product_tittle=$product->title;
+            $cart->price=$product->price;
+            $cart->quantity=$request->quantity;
+            $cart->save();
+
+
+            return redirect()->back();
+        }
+        else
+        {
+            return rediredct('login');
+        }
     }
 }

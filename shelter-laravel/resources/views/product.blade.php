@@ -34,7 +34,15 @@
       <div class="card-body text-center">
       <h3 class="card-title"><a href="/product?author={{ $product[0]->slug }}" class="text-decoration-none text-dark"></a>{{ $product[0]->title }}</h3>
       <p class="card-text">{{ $product[0]->excerpt }}</p>
-      <a href="/product/{{ $product[0]->slug }}" class="text-decoration-none btn btn-primary">{{ $button }}</a>
+        <form action="{{ url('cart', $product) }}"method="GET">
+            @csrf
+
+            <input type="number" value="1" min="1" class="form-control" style="width:100px text-center"  name="">
+            <br>
+
+            <input class="btn btn-primary"type="submit" value="Add Cart">
+
+            </form>
    </div>
 
     <div class="container">
@@ -52,8 +60,18 @@
                   <h5 class="card-title">{{ $products->title }}</h5>
                   <p class="card-text">{{ $products->excerpt }}</p>
                   <br>
-                    <a href="/product/{{ $products->slug }}" class="btn btn-primary">{{ $button }}</a>
-                    {{-- <a href="/products/{{ $products->slug }}" class="btn btn-primary">{{ $button }}</a>   --}}
+
+                    <form action="{{ url('cart', $product) }}"method="GET">
+                    @csrf
+
+                    <input type="number" value="1" min="1" class="form-control" style="width:100px" name="">
+                    <br>
+
+                    <input class="btn btn-primary"type="submit" value="Add Cart">
+
+                    </form>
+                    
+                    
                </div>
             </div>
          </div>
