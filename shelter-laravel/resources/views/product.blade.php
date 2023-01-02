@@ -52,7 +52,7 @@
              <div class="card" style="border-radius: 10px">
                <div class="position-absolute px-3 py-2" style="background-color: rgba(0,0,0,0.7); border-radius:10px"><a href="/product?category={{ $products->category->slug }}" class="text-white text-decoration-none">{{ $products->category->name }}</a></div>
                  @if($products->image)
-                     <img src="{{ asset('storage/' . $products->image) }}" alt="{{ $products->category->name }}" class="img-fluid ">
+                     <img src="{{ asset('storage/' . $products->image) }}" alt="{{ $products->category->name }}" class="img-fluid " style="width: 300px; height: 250px" >
                  @else
                      <img src="https://source.unsplash.com/500x400/?{{ $products->category->name }}" class="card-img-top" alt="{{ $products->category->name }}">
                  @endif

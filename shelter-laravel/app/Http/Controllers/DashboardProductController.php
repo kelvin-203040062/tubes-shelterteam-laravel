@@ -19,7 +19,8 @@ class DashboardProductController extends Controller
     public function index()
     {
         return view('dashboard.products.index', [
-            'products' => Post::where('user_id', auth()->user()->id)->get()
+            'products' => Product::where('user_id', auth()->user()->id)->get(),
+            'title' => 'Dashboard',
         ]);
     }
 
