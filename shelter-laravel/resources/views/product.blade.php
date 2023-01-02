@@ -24,7 +24,9 @@
 <!-- kondisi postingan -->
 @if($product->count())
 <div class="main-card mb-3">
-    @if($product[0]->image)
+    <div class="position-absolute px-3 py-2" style="background-color: rgba(0,0,0,0.7); border-radius:10px"><a href="/product?category={{ $product[0]->category->slug }}" class="text-white text-decoration-none">{{ $product[0]->category->name }}</a></div>
+
+@if($product[0]->image)
    <div class="main-img">
        <img src="{{ asset('storage/' . $product[0]->image) }}" alt="{{ $product[0]->category->name }}" class="img-fluid mt-3">
    </div>
@@ -36,12 +38,9 @@
       <p class="card-text">{{ $product[0]->excerpt }}</p>
         <form action="{{ url('cart', $product) }}"method="GET">
             @csrf
-
             <input type="number" value="1" min="1" class="form-control" style="width:100px text-center"  name="">
             <br>
-
             <input class="btn btn-primary"type="submit" value="Add Cart">
-
             </form>
    </div>
 

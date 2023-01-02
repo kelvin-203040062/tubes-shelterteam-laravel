@@ -35,8 +35,8 @@ Route::get('/', function () {
         'tit' => 'Adidas',
         'img5' => 'Nike.jpg',
         'tit2' => 'Nike',
-        'img6' => 'Puma.jpg',
-        'tit3' => 'Puma',
+        'img6' => 'converse.jpg',
+        'tit3' => 'Converse',
         'button' => 'Explore',
 
         'contact' => 'Contact Us',
@@ -146,4 +146,4 @@ Route::get('/dashboard/products/checkSlug', [DashboardProductController::class, 
 Route::resource('/dashboard/products', DashboardProductController::class)->middleware('auth');
 
 Route::resource('/dashboard/categories', \App\Http\Controllers\AdminCategoryController::class)->except('show')->middleware('admin');
-Route::get('/cart,{$id}', [ProductController::class, 'cart']) ->middleware('auth');
+//Route::get('/cart,{$id}', [ProductController::class, 'cart']) ->middleware('auth');

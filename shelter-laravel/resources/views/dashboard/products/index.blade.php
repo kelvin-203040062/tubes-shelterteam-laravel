@@ -12,7 +12,7 @@
     @endif
 
     <div class="table-responsive col-lg-8">
-        <a href="/dashboard/posts/create" class=" btn btn-primary mb-5">Create New Product</a>
+        <a href="/dashboard/products/create" class=" btn btn-primary mb-5">Create New Product</a>
         <table class="table table-striped table-sm">
             <thead>
             <tr>
@@ -20,6 +20,7 @@
                 <th scope="col">Image</th>
                 <th scope="col">Product</th>
                 <th scope="col">Category</th>
+                <th scope="col">Price</th>
                 <th scope="col">Action</th>
             </tr>
             </thead>
@@ -27,13 +28,14 @@
             @foreach ($products as $product)
                 <tr>
                     <td>{{ $loop->iteration }}</td>
-                    <td>{{ $product->image }}</td>
+                    <td><img src="{{ asset('storage/' . $product->image) }}" alt="{{ $product->category->name }}" class="img-fluid " style="width: 300px; height: 250px" ></td>
                     <td>{{ $product->title }}</td>
                     <td>{{ $product->category->name }}</td>
+                    <td>{{ $product->price }}</td>
                     <td>
-                        <a href="/dashboard/posts/{{ $product->slug }}" class="badge bg-info"><span data-feather="eye"></span></a>
-                        <a href="/dashboard/posts/{{ $product->slug }}/edit" class="badge bg-warning"><span data-feather="edit"></span></a>
-                        <form action="/dashboard/posts/{{ $product->slug }}" method="post" class="d-inline">
+                        <a href="/dashboard/products/{{ $product->slug }}" class="badge bg-info"><span data-feather="eye"></span></a>
+                        <a href="/dashboard/products/{{ $product->slug }}/edit" class="badge bg-warning"><span data-feather="edit"></span></a>
+                        <form action="/dashboard/products/{{ $product->slug }}" method="post" class="d-inline">
                             @method('delete')
                             @csrf
                             <button class="badge bg-danger border-0" onclick="return confirm('Are You Sure To Delete Data?')"><span data-feather="x-circle"></span></button>
@@ -44,5 +46,4 @@
             </tbody>
         </table>
     </div>
-
 @endsection
