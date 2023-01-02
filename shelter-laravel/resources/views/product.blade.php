@@ -6,7 +6,7 @@
       <h1 class="mb-3 text-center">{{ $title }}</h1>
 <div class="row justify-content-center mb-3">
    <div class="col-md-6">
-      <form action="/post">
+      <form action="/product">
           @if(request('category'))
               <input type="hidden" name="category" value="{{ request('category') }}">
           @endif
