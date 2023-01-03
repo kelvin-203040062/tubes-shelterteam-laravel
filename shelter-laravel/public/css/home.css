@@ -18,11 +18,11 @@
     }
 
     .navbar-brand{
-        padding-left: 15%;
+        padding-left: auto;
     }
 
     .navbar-nav{
-        padding-right: 20%;
+        padding-right: auto;
     }
 
     .navbar-light{

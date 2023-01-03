@@ -35,8 +35,8 @@ Route::get('/', function () {
         'tit' => 'Adidas',
         'img5' => 'Nike.jpg',
         'tit2' => 'Nike',
-        'img6' => 'converse.jpg',
-        'tit3' => 'Converse',
+        'img6' => 'Puma.jpg',
+        'tit3' => 'Puma',
         'button' => 'Explore',
 
         'contact' => 'Contact Us',
