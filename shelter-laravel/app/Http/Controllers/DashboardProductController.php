@@ -19,7 +19,8 @@ class DashboardProductController extends Controller
     public function index()
     {
         return view('dashboard.products.index', [
-            'products' => Post::where('user_id', auth()->user()->id)->get()
+            'products' => Product::where('user_id', auth()->user()->id)->get(),
+            'title' => 'Dashboard',
         ]);
     }
 
@@ -31,7 +32,9 @@ class DashboardProductController extends Controller
     public function create()
     {
         return view('dashboard.products.create', [
-            'categories' => Category::all()
+            'categories' => Category::all(),
+            'title' => 'New Product',
+
         ]);
     }
 
@@ -47,18 +50,18 @@ class DashboardProductController extends Controller
             'title' => 'required|max:255',
             'slug' => 'required|unique:products',
             'category_id' => 'required',
+            'price' => 'required',
             'image' => 'image|file|max:10024',
             'body' => 'required'
         ]);
 
         if($request->file('image')) {
-            $validatedData['image'] = $request->file('image')->store('post-images');
+            $validatedData['image'] = $request->file('image')->store('products-images');
         }
 
         $validatedData['user_id'] = auth()->user()->id;
-        $validatedData['excerpt'] = Str::limit(strip_tags($request->body), 200);
 
-        Post::create($validatedData);
+        Product::create($validatedData);
 
         return redirect('/dashboard/products')->with('success', 'New product has been added!');
     }
@@ -72,7 +75,8 @@ class DashboardProductController extends Controller
     public function show(Product $product)
     {
         return view('dashboard.products.show', [
-            'product' => $product
+            'product' => $product,
+            'title' => 'Product Details'
         ]);
     }
 
@@ -86,7 +90,8 @@ class DashboardProductController extends Controller
     {
         return view('dashboard.products.edit', [
             'product' => $product,
-            'categories' => Category::all()
+            'categories' => Category::all(),
+            'title' => 'Edit Product'
         ]);
     }
 
@@ -103,6 +108,7 @@ class DashboardProductController extends Controller
             'title' => 'required|max:255',
             'category_id' => 'required',
             'image' => 'image|file|max:10024',
+            'price' => 'required',
             'body' => 'required'
         ];
 
@@ -120,9 +126,8 @@ class DashboardProductController extends Controller
         }
 
         $validatedData['user_id'] = auth()->user()->id;
-        $validatedData['excerpt'] = Str::limit(strip_tags($request->body), 200);
 
-        Post::where('id', $product->id)
+        Product::where('id', $product->id)
             ->update($validatedData);
 
         return redirect('/dashboard/products')->with('success', 'Product has been update!');
@@ -139,7 +144,7 @@ class DashboardProductController extends Controller
         if($product->image) {
             Storage::delete($product->image);
         }
-        Post::destroy($product->id);
+        Product::destroy($product->id);
         return redirect('/dashboard/products')->with('success', 'Product has been deleted!');
     }
 

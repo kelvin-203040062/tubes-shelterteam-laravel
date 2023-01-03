@@ -3,8 +3,7 @@
 @section('container')
   <div class="products"></div>
       <div class="product-image">
-        <img src="http://co0kie.github.io/codepen/nike-product-page/nikeLogo.png" alt="" class="product-logo">
-        <img src="http://co0kie.github.io/codepen/nike-product-page/nikeShoe.png" alt="" class="product-pic">
+        <img src="{{ asset('storage/' . $product->image) }}" alt="{{ $product->category->name }}" class="product-pic">
         <div class="dots">
           <a href="#!" class="active"><i>1</i></a>
           <a href="#!"><i>2</i></a>
@@ -15,23 +14,21 @@
 
       <div class="product-details">
         <header>
-          <h1 class="title">Nike Roshe</h1>
-          <span class="colorCat">mint green</span>
+          <h1 class="title">{{ $product->title }}</h1>
           <div class="price">
-            <span class="before">$150</span>
             <span class="current">$144.99</span>
           </div>
           <div class="rate">
             <a href="#!" class="active">★</a>
             <a href="#!" class="active">★</a>
             <a href="#!" class="active">★</a>
-            <a href="#!">★</a>
-            <a href="#!">★</a>
+            <a href="#!" class="active">★</a>
+            <a href="#!" class="active">★</a>
           </div>
         </header>
         <article>
           <h5>Description</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <p>{!! $product->body !!} </p>
         </article>
         <div class="controls">
           <div class="color">
