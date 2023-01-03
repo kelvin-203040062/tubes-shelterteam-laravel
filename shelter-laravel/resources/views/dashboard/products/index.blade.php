@@ -16,7 +16,7 @@
         <table class="table table-striped table-sm">
             <thead>
             <tr>
-                <th scope="col">#</th>
+                <th scope="col">no</th>
                 <th scope="col">Image</th>
                 <th scope="col">Product</th>
                 <th scope="col">Category</th>
@@ -28,7 +28,7 @@
             @foreach ($products as $product)
                 <tr>
                     <td>{{ $loop->iteration }}</td>
-                    <td><img src="{{ asset('storage/' . $product->image) }}" alt="{{ $product->category->name }}" class="img-fluid " style="width: 300px; height: 250px" ></td>
+                    <td><img src="{{ asset('storage/' . $product->image) }}" alt="{{ $product->category->name }}" class="img-fluid " style="width: 200px; height: 100%" ></td>
                     <td>{{ $product->title }}</td>
                     <td>{{ $product->category->name }}</td>
                     <td>{{ $product->price }}</td>
